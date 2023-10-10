@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.btnStart{
+    padding: 15px 42px;
+    background-color: #FAF9FA;
+    outline: none;
+    border: 1px solid #2A292A;
+    border-radius: 10px;
+}
+
+.btnStart:hover{
+    background-color: #dddadd;
+    cursor: pointer;
+}
+
