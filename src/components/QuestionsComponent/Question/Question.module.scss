@@ -30,6 +30,7 @@
     font-style: normal;
     margin: 0;
     width: 312px;
+    background-color: inherit;
    cursor: pointer;
    transition: border-color 0.3s, background-color 0.3s;
    
@@ -58,6 +59,27 @@
 
 .defaultButton {
     border: 2px solid black;
+}
+
+.nextQuestionBtn{
+    background-color: rgba(66, 95, 156, 1);
+    border-radius: 6px;
+    border: none;
+    color: #ffff;
+    padding: 15px 35px;
+    
+}
+.containerQuestion{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+.nextQuestionBtn{
+    margin-top: 72px;
+    margin-right: 20px;
+    width: 140px;
+    margin-left: auto;
 }
 
 

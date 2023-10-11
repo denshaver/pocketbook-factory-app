@@ -60,7 +60,7 @@ const Question = ({ question, onAnswer, handleNextQuestion }) => {
           )}
         </div>
       )}
-      <button onClick={resetQuestion}>Следующий вопрос</button>
+      <button onClick={resetQuestion} className={style.nextQuestionBtn}>NEXT</button>
     </div>
   );
 };
