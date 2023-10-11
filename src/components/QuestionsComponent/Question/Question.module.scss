@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap');
+
+.conQuesText{
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+}
+.quesText{
+    margin: 20px;
+}
+.btnitem{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    // margin: 20px 20px 20px 0px;
+}
+
+.btnQuest {
+    border: 1px solid black;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.14);
+    padding: 15px 28px;
+    outline: none;
+    border-radius: 10px;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 28px;
+    font-weight: 600;
+    font-size: 16px; 
+    font-style: normal;
+    margin: 0;
+    width: 312px;
+   cursor: pointer;
+   transition: border-color 0.3s, background-color 0.3s;
+   
+}
+// .btnQuest:hover {
+//     border-color: rgba(42, 41, 42, 1); 
+    
+// }
+
+.listBtnItem:nth-child(-n+2){
+    margin-bottom: 20px;
+
+}
+.listBtnItem:nth-child(1),
+.listBtnItem:nth-child(3) {
+    margin-right: 25px;
+}
+
+.correctAnswer {
+    border: 2px solid green;
+}
+
+.wrongAnswer {
+    border: 2px solid red;
+}
+
+.defaultButton {
+    border: 2px solid black;
+}
+
+
+
+

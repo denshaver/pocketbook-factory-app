@@ -17,20 +17,31 @@ const TitleStart = () => {
 
   return (
     <>
-    <div className={style.container}>
+    
+    
       {showQuestions ? (
-        <Quiz /> 
+        <>
+        <div className={style.containerQuiz}>
+
+          <Quiz /> 
+        </div>
+        
+        </>
+        
+
       ) : (
         <>
+        <div className={style.container}>
           <h1 className={style.title}>Quiz starts here</h1>
           <p className={style.par}>Are You an E-Reader Expert?</p>
 
           <button type="button" className={style.btnStart} onClick={btnhandleSubmit}>
             Get ready
           </button>
+          </div>
         </>
       )}
-    </div>
+    
   </>
   );
 };

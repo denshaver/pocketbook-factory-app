@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
+import { useEffect } from 'react';
 import QuestionList from '../QuestionList/QuestionList';
+import QuestionCompleted from '../QuestionCompleted/QuestionCompleted';
 
 const Quiz = () => {
   const questions = [
@@ -63,38 +65,55 @@ const Quiz = () => {
 
   const handleAnswer = (isCorrect) => {
     if (isCorrect) {
+      
       setCorrectAnswers(correctAnswers + 1);
+
     }
   };
 
+  
+  console.log(correctAnswers);
+
   const handleNextQuestion = () => {
+    
     if (currentQuestionIndex < questions.length - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
+      
     } else {
       
       setQuizCompleted(true);
     }
   };
 
+
+  useEffect(()=> {
+    if (!quizCompleted){
+      console.log('второй юз');
+      setCorrectAnswers(0)
+    }
+  },[quizCompleted])
+
   return (
     <div>
-      <h1>Quiz starts here</h1>
-      <QuestionList
-        question={questions[currentQuestionIndex]}
-        onAnswer={handleAnswer}
-      />
+      
       {quizCompleted ? (
-        <div>
+        <>
+        <QuestionCompleted/>
+         <div>
           <p>Тест завершен. Количество правильных ответов: {correctAnswers}</p>
         </div>
-      ) : (
-        <button
-          onClick={handleNextQuestion}
-          disabled={currentQuestionIndex === questions.length}
-        >
-          {currentQuestionIndex === questions.length - 1 ? 'Закончить' : 'Следующий вопрос'}
-        </button>
-      )}
+        </>
+        
+      ):(<QuestionList
+        question={questions[currentQuestionIndex]}
+        onAnswer={handleAnswer}
+        handleNextQuestion={handleNextQuestion}
+      />)}
+      
+      
+        
+       
+      
     </div>
   );
 };
