@@ -1,0 +1,29 @@
+.img{
+    
+    border-radius: 10px;
+}
+.conHeader{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+}
+.itemlist{
+
+}
+
+.list{
+    list-style: none;
+    display: flex;
+}
+.titleWelcome{
+    color: var(--text-black, #000);
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
