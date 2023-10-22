@@ -3,9 +3,23 @@
 .conQuesText{
     border-bottom: 1px solid #000;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .quesText{
-    margin: 20px;
+    color: #2A292A;
+
+font-family: Noto Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+.tittleTextQues{
+    width: 516px;
 }
 .btnitem{
     display: flex;

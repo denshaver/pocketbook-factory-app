@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import style from './Question.module.scss';
 import img from '../../../icons/imgQuiz.png';
 
-const Question = ({ question, onAnswer, handleNextQuestion }) => {
+const Question = ({question, onAnswer, handleNextQuestion, currentQuestion, totalQuestions}) => {
   const [selectedOption, setSelectedOption] = useState(null);
   const [answered, setAnswered] = useState(false);
 
@@ -20,12 +20,19 @@ const Question = ({ question, onAnswer, handleNextQuestion }) => {
     setAnswered(false);
     handleNextQuestion();
   };
-
+console.log(currentQuestion + 1);
   return (
     <>
       <div className={style.containerQuestion}>
         <div className={style.conQuesText}>
-          <h2 className={style.quesText}>{question.text}</h2>
+          <div className={style.tittleTextQues}>
+            <h2 className={style.quesText}>{question.text}</h2>
+          </div>
+          
+
+          <h3 className={style.currentQuestion}>
+          {currentQuestion} of {totalQuestions}
+          </h3>
         </div>
         <div className={style.conQuestionImg}>
           <div>
