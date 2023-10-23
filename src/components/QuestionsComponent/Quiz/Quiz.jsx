@@ -99,7 +99,9 @@ console.log(currentQuestionIndex + 1);
     <div>
       {quizCompleted ? (
         <>
-          <QuestionCompleted />
+          <QuestionCompleted 
+          correctAnswers={correctAnswers}
+          />
           <div>
             <p>Тест завершен. Количество правильных ответов: {correctAnswers}</p>
           </div>
