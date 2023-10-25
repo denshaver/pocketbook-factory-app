@@ -1,5 +1,6 @@
 const QuestionCompleted = ({ correctAnswers }) => {
   let message = "";
+  
   switch (true) {
     case correctAnswers >= 0 && correctAnswers <= 4:
       message = `If you got 0-4 correct answers: Oops, you're an E-Reader Explorer in training! But don't worry, you still get the 'E-Reader Adventurer' award. Keep learning, and you'll become a pro in no time!`;
