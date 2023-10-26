@@ -1,7 +1,7 @@
 import style from './qustionEnd.module.scss';
 import * as React from 'react';
 import { CircularProgress } from '@chakra-ui/react';
-
+import { ImgReadContainer } from 'components/readerImg/imgReadContainer/ImgReadContainer';
 const QuestionCompleted = ({ correctAnswers, handleReset }) => {
   let message = '';
   let value = 0;
@@ -29,7 +29,9 @@ const QuestionCompleted = ({ correctAnswers, handleReset }) => {
   return (
     <>
       
+      <ImgReadContainer/>
         <div className={style.containerEnd}>
+        
 
           <CircularProgress
             value={value}
@@ -40,8 +42,9 @@ const QuestionCompleted = ({ correctAnswers, handleReset }) => {
           >
             {/* <CircularProgressLabel>{correctAnswers}</CircularProgressLabel> */}
           </CircularProgress>
-
+          
           <div>
+          
             <h2 className={style.tittleMessage}>{tittle}</h2>
             <p className={style.messageTxt}>{message}</p>
             <button
@@ -52,7 +55,9 @@ const QuestionCompleted = ({ correctAnswers, handleReset }) => {
               PLAY AGAIN
             </button>
           </div>
+          
         </div>
+        
       
     </>
   );

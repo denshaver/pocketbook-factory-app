@@ -2,6 +2,17 @@
     
   display: flex;
   margin: 40px 40px;
+  
+    margin: auto;
+    width: 1200px;
+    border: 1px solid rgba(0, 0, 0, 100%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 116px;
+   
+    background: #FAF9FA;
 }
 
 .btnAgain{
@@ -20,6 +31,9 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    z-index: 1;
+    position: relative;
+    cursor: pointer;
 }  
 
 .messageTxt{

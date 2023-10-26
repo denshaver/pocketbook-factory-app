@@ -11,6 +11,7 @@ const Question = ({
 }) => {
   const [selectedOption, setSelectedOption] = useState(null);
   const [answered, setAnswered] = useState(false);
+  const [btnhandleNext, setbtnhandleNext] = useState(true);
 
   const handleOptionSelect = optionIndex => {
     if (!answered) {
@@ -18,6 +19,7 @@ const Question = ({
       const isCorrect = optionIndex === question.correctAnswerIndex;
       onAnswer(isCorrect);
       setAnswered(true);
+      setbtnhandleNext(false);
     }
   };
 
@@ -25,6 +27,7 @@ const Question = ({
     setSelectedOption(null);
     setAnswered(false);
     handleNextQuestion();
+    setbtnhandleNext(true);
   };
   console.log(currentQuestion + 1);
   return (
@@ -70,7 +73,7 @@ const Question = ({
               ))}
             </ul>
             <div className={style.nextbtn}>
-              <button onClick={resetQuestion} className={style.nextQuestionBtn}>
+              <button onClick={resetQuestion} className={style.nextQuestionBtn} disabled={btnhandleNext}>
                 NEXT
               </button>
             </div>
