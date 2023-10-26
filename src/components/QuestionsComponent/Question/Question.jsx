@@ -2,7 +2,13 @@ import React, { useState } from 'react';
 import style from './Question.module.scss';
 import img from '../../../icons/imgQuiz.png';
 
-const Question = ({question, onAnswer, handleNextQuestion, currentQuestion, totalQuestions}) => {
+const Question = ({
+  question,
+  onAnswer,
+  handleNextQuestion,
+  currentQuestion,
+  totalQuestions,
+}) => {
   const [selectedOption, setSelectedOption] = useState(null);
   const [answered, setAnswered] = useState(false);
 
@@ -20,23 +26,26 @@ const Question = ({question, onAnswer, handleNextQuestion, currentQuestion, tota
     setAnswered(false);
     handleNextQuestion();
   };
-console.log(currentQuestion + 1);
+  console.log(currentQuestion + 1);
   return (
     <>
       <div className={style.containerQuestion}>
         <div className={style.conQuesText}>
-          <div className={style.tittleTextQues}>
+          <div className={style.conQuesTextAndNumb}>
+
+            <div className={style.tittleTextQues}>
             <h2 className={style.quesText}>{question.text}</h2>
           </div>
-          
 
           <h3 className={style.currentQuestion}>
-          {currentQuestion} of {totalQuestions}
+            {currentQuestion} of {totalQuestions}
           </h3>
+          </div>
+          
         </div>
         <div className={style.conQuestionImg}>
-          <div>
-            <img src={img} alt="" width="240px" height="224px" />
+          <div className={style.imgcon}>
+            <img src={img} alt="" width="393px" height="366px" />
           </div>
           <div className={style.conItem}>
             <ul className={style.btnitem}>
@@ -61,10 +70,10 @@ console.log(currentQuestion + 1);
               ))}
             </ul>
             <div className={style.nextbtn}>
-          <button onClick={resetQuestion} className={style.nextQuestionBtn}>
-            NEXT
-          </button>
-        </div>
+              <button onClick={resetQuestion} className={style.nextQuestionBtn}>
+                NEXT
+              </button>
+            </div>
           </div>
         </div>
 
@@ -80,8 +89,6 @@ console.log(currentQuestion + 1);
             )}
           </div>
         )} */}
-
-      
       </div>
     </>
   );
