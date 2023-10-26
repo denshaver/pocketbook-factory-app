@@ -3,6 +3,15 @@
     margin: auto;
     align-items: center;
     flex-direction: column;
+    margin-top: 240px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    padding: 48px 32px 50px 32px;
+    background: #FFF;
+    width: 360px;
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.14);
+
+    z-index: 9999;
     
 }
 .containerQuiz {
@@ -13,6 +22,7 @@
     border-radius: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
+    
 }
 .btnStart{
     padding: 15px 42px;
@@ -20,6 +30,7 @@
     outline: none;
     border: 1px solid #2A292A;
     border-radius: 10px;
+    
 }
 
 .btnStart:hover{
