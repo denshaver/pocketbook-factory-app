@@ -80,18 +80,7 @@ const Question = ({
           </div>
         </div>
 
-        {/* {answered && (
-          <div>
-            {question.correctAnswerIndex === selectedOption ? (
-              <p>Правильно!</p>
-            ) : (
-              <p>
-                Неправильно. Правильный ответ:{' '}
-                {question.options[question.correctAnswerIndex]}
-              </p>
-            )}
-          </div>
-        )} */}
+        
       </div>
     </>
   );

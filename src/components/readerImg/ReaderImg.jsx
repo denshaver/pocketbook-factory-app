@@ -1,4 +1,4 @@
-// import { AspectRatio, Image } from '@chakra-ui/react'
+
 import { Grid} from '@chakra-ui/react'
 import img15 from '../../img/img15.png';
 import img17 from '../../img/img17.png';

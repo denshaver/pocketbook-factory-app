@@ -1,6 +1,6 @@
 import React from 'react';
 import style from '../titleStatrt/titleStart.module.scss';
-// import QuestionsComponent from '../../QuestionsComponent/QuestionsComponent';
+
 import Quiz from 'components/QuestionsComponent/Quiz/Quiz';
 import { ImgReadContainer } from 'components/readerImg/imgReadContainer/ImgReadContainer';
 import { useState } from 'react';

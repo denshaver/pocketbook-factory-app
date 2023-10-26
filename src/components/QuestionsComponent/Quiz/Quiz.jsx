@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import QuestionList from '../QuestionList/QuestionList';
 import QuestionCompleted from '../QuestionCompleted/QuestionCompleted';
 import style from './Quizstyle.module.scss';
-import { ImgReadContainer } from 'components/readerImg/imgReadContainer/ImgReadContainer';
+
 
 const Quiz = ({ handleReset }) => {
   const questions = [
