@@ -2,6 +2,7 @@ import React from 'react';
 import style from '../titleStatrt/titleStart.module.scss';
 // import QuestionsComponent from '../../QuestionsComponent/QuestionsComponent';
 import Quiz from 'components/QuestionsComponent/Quiz/Quiz';
+
 import { useState } from 'react';
 
 const TitleStart = () => {
@@ -13,8 +14,10 @@ const TitleStart = () => {
       setShowQuestions(true);
     }
 
-
-
+ 
+const handleReset = () => {
+  setShowQuestions(false);
+}
   return (
     <>
     
@@ -23,7 +26,8 @@ const TitleStart = () => {
         <>
         <div className={style.containerQuiz}>
 
-          <Quiz /> 
+          <Quiz  handleReset={handleReset}/> 
+          
         </div>
         
         </>
@@ -41,7 +45,7 @@ const TitleStart = () => {
           </div>
         </>
       )}
-    
+   
   </>
   );
 };

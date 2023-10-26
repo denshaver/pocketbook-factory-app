@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import QuestionList from '../QuestionList/QuestionList';
 import QuestionCompleted from '../QuestionCompleted/QuestionCompleted';
 
-const Quiz = () => {
+const Quiz = ({handleReset}) => {
   const questions = [
     {
       text: "What special feature allows an PocketBook to be readable even in bright sunlight?",
@@ -94,17 +94,16 @@ const Quiz = () => {
       setCorrectAnswers(0);
     }
   }, [quizCompleted]);
-console.log(currentQuestionIndex + 1);
+
   return (
     <div>
       {quizCompleted ? (
         <>
           <QuestionCompleted 
-          correctAnswers={correctAnswers}
+            correctAnswers={correctAnswers}
+            handleReset={handleReset}
           />
-          <div>
-            <p>Тест завершен. Количество правильных ответов: {correctAnswers}</p>
-          </div>
+         
         </>
       ) : (
         <QuestionList
