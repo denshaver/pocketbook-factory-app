@@ -2,16 +2,17 @@
     
   display: flex;
   margin: 40px 40px;
-  
+  justify-content: center;
     margin: auto;
     width: 1200px;
     border: 1px solid rgba(0, 0, 0, 100%);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
     margin-top: 116px;
-   
+   align-items: center;
     background: #FAF9FA;
 }
 
@@ -19,7 +20,7 @@
 
     border-radius: 10px;
     border: 1px solid #2A292A;
-
+    margin-top: 38px;
     background: #FAF9FA;
 
     color: #000;
@@ -37,6 +38,7 @@
 }  
 
 .messageTxt{
+    margin: 0;
     color: #000;
     font-family: Noto Sans;
     font-size: 20px;
@@ -47,7 +49,7 @@
 
 .tittleMessage{
     color: #000;
-
+    margin: 0;
     font-family: Noto Sans;
     font-size: 24px;
     font-style: normal;
@@ -58,4 +60,16 @@
     margin-right: 104px;
 }
   
- 
+.totalAnswer{
+    color: #2A292A;
+
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.conTextEnd{
+    width: 442px;
+}

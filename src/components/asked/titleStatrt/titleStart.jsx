@@ -1,5 +1,9 @@
 import React from 'react';
 import style from '../titleStatrt/titleStart.module.scss';
+import Header from '../../header/header';
+import { AspectRatio } from '@chakra-ui/react';
+
+
 
 import Quiz from 'components/QuestionsComponent/Quiz/Quiz';
 import { ImgReadContainer } from 'components/readerImg/imgReadContainer/ImgReadContainer';
@@ -20,7 +24,7 @@ const handleReset = () => {
 }
   return (
     <>
-    
+   
     
       {showQuestions ? (
         <>
@@ -35,6 +39,17 @@ const handleReset = () => {
 
       ) : (
         <>
+         <Header />
+        <div className={style.conVideo}>
+          <AspectRatio maxW="1360px" className={style.video}>
+            <iframe
+              title="naruto"
+              src="https://www.youtube.com/embed/QhBnZ6NPOY0"
+              className={style.videoIframe}
+            />
+          </AspectRatio>
+        </div>
+        
         <ImgReadContainer/>
         <div className={style.container}>
           <h1 className={style.title}>Quiz starts here</h1>

@@ -22,7 +22,7 @@ export const ReaderImg = () => {
 
  return (
     <>
-        <Grid templateColumns='repeat(6, 1fr)' gap={60}>
+        <Grid templateColumns='repeat(6, 1fr)' gap={60} marginBottom={55} marginTop={30} justifyItems='center' >
 
             <img src={img15} alt="" />
             <img src={img17} alt="" />

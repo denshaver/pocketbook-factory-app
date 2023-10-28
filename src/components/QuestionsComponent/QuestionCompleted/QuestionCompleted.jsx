@@ -1,8 +1,8 @@
 import style from './qustionEnd.module.scss';
 import * as React from 'react';
-import { CircularProgress } from '@chakra-ui/react';
+import { CircularProgress, CircularProgressLabel } from '@chakra-ui/react';
 import { ImgReadContainer } from 'components/readerImg/imgReadContainer/ImgReadContainer';
-const QuestionCompleted = ({ correctAnswers, handleReset }) => {
+const QuestionCompleted = ({ correctAnswers, handleReset, totalQuestions }) => {
   let message = '';
   let value = 0;
   let tittle = '';
@@ -28,37 +28,37 @@ const QuestionCompleted = ({ correctAnswers, handleReset }) => {
 
   return (
     <>
-      
-      <ImgReadContainer/>
-        <div className={style.containerEnd}>
-        
+      <ImgReadContainer />
+      <div className={style.containerEnd}>
+        <CircularProgress
+          value={value}
+          size="300px"
+          thickness="4px"
+          color="#1A2B4F"
+          className={style.cricular}
+          display="flex"
+        >
+          <CircularProgressLabel width={73} top="43%">
+            <span className={style.totalAnswer}>{correctAnswers}/</span>
+            <span className={style.totalAnswer}>{totalQuestions}</span>
+          </CircularProgressLabel>
+        </CircularProgress>
 
-          <CircularProgress
-            value={value}
-            size="300px"
-            thickness="4px"
-            color="#1A2B4F"
-            className={style.cricular}
-          >
-            {/* <CircularProgressLabel>{correctAnswers}</CircularProgressLabel> */}
-          </CircularProgress>
-          
-          <div>
-          
+        <div>
+          <div className={style.conTextEnd}>
             <h2 className={style.tittleMessage}>{tittle}</h2>
             <p className={style.messageTxt}>{message}</p>
-            <button
-              type="button"
-              onClick={handleReset}
-              className={style.btnAgain}
-            >
-              PLAY AGAIN
-            </button>
           </div>
-          
+
+          <button
+            type="button"
+            onClick={handleReset}
+            className={style.btnAgain}
+          >
+            PLAY AGAIN
+          </button>
         </div>
-        
-      
+      </div>
     </>
   );
 };

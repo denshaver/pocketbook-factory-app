@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import style from './Question.module.scss';
-import img from '../../../icons/imgQuiz.png';
 
+import EastIcon from '@mui/icons-material/East';
 const Question = ({
   question,
   onAnswer,
@@ -46,10 +46,13 @@ const Question = ({
           </div>
           
         </div>
+
         <div className={style.conQuestionImg}>
+
           <div className={style.imgcon}>
-            <img src={img} alt="" width="393px" height="366px" />
+            <img src={question.img} alt="" width="393px" height="366px" />
           </div>
+
           <div className={style.conItem}>
             <ul className={style.btnitem}>
               {question.options.map((option, index) => (
@@ -72,11 +75,11 @@ const Question = ({
                 </li>
               ))}
             </ul>
-            <div className={style.nextbtn}>
+            {answered ? <div className={style.nextbtn}>
               <button onClick={resetQuestion} className={style.nextQuestionBtn} disabled={btnhandleNext}>
-                NEXT
+                NEXT <EastIcon/>
               </button>
-            </div>
+            </div> : ''}
           </div>
         </div>
 
