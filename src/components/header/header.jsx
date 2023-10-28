@@ -1,5 +1,10 @@
 import style from './header.module.scss'
-import icons from '../../icons/img23.png'
+
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import TelegramIcon from '@mui/icons-material/Telegram';
 const Header = () => {
 
 
@@ -12,12 +17,12 @@ const Header = () => {
 
             
             <ul className={style.list}>
-                <li className={style.itemlist}><img src={icons} alt="" width="24px" height="24px"/></li>
-                <li className={style.itemlist}><img src={icons} alt="" width="24px" height="24px"/></li>
-                <li className={style.itemlist}><img src={icons} alt="" width="24px" height="24px"/></li>
-                <li className={style.itemlist}><img src={icons} alt="" width="24px" height="24px"/></li>
-                <li className={style.itemlist}><img src={icons} alt="" width="24px" height="24px"/></li>
-                <li className={style.itemlist}><img src={icons} alt="" width="24px" height="24px"/></li>
+                <li className={style.itemlist}><FacebookIcon/></li>
+                <li className={style.itemlist}><InstagramIcon/></li>
+                <li className={style.itemlist}><TwitterIcon/></li>
+                <li className={style.itemlist}><YouTubeIcon/></li>
+                <li className={style.itemlist}><TelegramIcon/></li>
+                <li className={style.itemlist}></li>
             </ul>
         </div>
 

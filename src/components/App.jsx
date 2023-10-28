@@ -2,7 +2,7 @@ import TitleStart from './asked/titleStatrt/titleStart';
 
 import style from './appStyle.module.scss';
 
-export const App = ({btnhandleSubmit}) => {
+export const App = () => {
 
   
   return (
