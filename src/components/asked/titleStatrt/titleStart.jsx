@@ -2,7 +2,7 @@ import React from 'react';
 import style from '../titleStatrt/titleStart.module.scss';
 import Header from '../../header/header';
 import { AspectRatio } from '@chakra-ui/react';
-
+import { Footer } from 'components/footer/Footer';
 
 
 import Quiz from 'components/QuestionsComponent/Quiz/Quiz';
@@ -59,6 +59,7 @@ const handleReset = () => {
             Get ready
           </button>
           </div>
+          <Footer/>
         </>
       )}
    
