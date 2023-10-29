@@ -5,6 +5,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import TelegramIcon from '@mui/icons-material/Telegram';
+import icons from './icons.svg'
 const Header = () => {
 
 
@@ -22,7 +23,10 @@ const Header = () => {
                 <li className={style.itemlist}><TwitterIcon/></li>
                 <li className={style.itemlist}><YouTubeIcon/></li>
                 <li className={style.itemlist}><TelegramIcon/></li>
-                <li className={style.itemlist}></li>
+                <li className={style.itemlist}>
+                    <svg className={style.facebook} width="24px" height="24px">
+                  <use href="./icons.svg#icon-facebook"></use>
+                </svg></li>
             </ul>
         </div>
 
