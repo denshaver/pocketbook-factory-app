@@ -1,3 +1,8 @@
+<svg aria-hidden="true" style="position: absolute; width: 20px; height: 20px;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
 <symbol id="icon-facebook" viewBox="0 0 16 32">
 <path fill="#fff" style="fill: var(--color1, #fff)" d="M14.322 17.688l0.77-4.892h-4.743v-3.18c0-1.338 0.662-2.645 2.78-2.645h2.187v-4.166c-1.273-0.203-2.56-0.313-3.85-0.329-3.904 0-6.452 2.347-6.452 6.589v3.73h-4.327v4.892h4.327v11.833h5.336v-11.833h3.973z"></path>
 </symbol>
+</defs>
+</svg>
+

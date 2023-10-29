@@ -1,11 +1,11 @@
 import style from './header.module.scss'
-
-import FacebookIcon from '@mui/icons-material/Facebook';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import YouTubeIcon from '@mui/icons-material/YouTube';
-import TelegramIcon from '@mui/icons-material/Telegram';
-import icons from './icons.svg'
+import React from 'react';
+import {FaFacebookF} from 'react-icons/fa'
+import {BsTiktok} from 'react-icons/bs'
+import {FiInstagram} from 'react-icons/fi'
+import {FaTwitter} from 'react-icons/fa'
+import {BiLogoTelegram} from 'react-icons/bi'
+import {ImYoutube} from 'react-icons/im';
 const Header = () => {
 
 
@@ -18,15 +18,12 @@ const Header = () => {
 
             
             <ul className={style.list}>
-                <li className={style.itemlist}><FacebookIcon/></li>
-                <li className={style.itemlist}><InstagramIcon/></li>
-                <li className={style.itemlist}><TwitterIcon/></li>
-                <li className={style.itemlist}><YouTubeIcon/></li>
-                <li className={style.itemlist}><TelegramIcon/></li>
-                <li className={style.itemlist}>
-                    <svg className={style.facebook} width="24px" height="24px">
-                  <use href="./icons.svg#icon-facebook"></use>
-                </svg></li>
+                <li className={style.itemlist}><FaFacebookF  fill='#fff'/></li>
+                <li className={style.itemlist}><FiInstagram fill='#fff'/></li>
+                <li className={style.itemlist}><FaTwitter fill='#fff'/></li>
+                <li className={style.itemlist}><BsTiktok fill='#fff'/></li>
+                <li className={style.itemlist}><ImYoutube fill='#fff'/></li>
+                <li className={style.itemlist}><BiLogoTelegram fill='#fff'/></li>
             </ul>
         </div>
 
