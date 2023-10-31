@@ -9,7 +9,12 @@
       align-items: center;
     }
 .readerContainerPosition{
-        position: absolute;
-        top: 35px;
-        z-index: -9999999;
-    }
+  position: absolute;
+  top: 35px;
+  left: -850px;
+  z-index: -9999999;
+}
+
+    //  position: absolute;
+    // top: 35px;
+    // z-index: -9999999;

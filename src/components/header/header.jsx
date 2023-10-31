@@ -12,7 +12,7 @@ const Header = () => {
     return(
         <>
         <div className={style.conHeader}>
-            <h1>
+            <h1 className={style.txtTitleHeader}>
                 PocketBook
             </h1>
 
