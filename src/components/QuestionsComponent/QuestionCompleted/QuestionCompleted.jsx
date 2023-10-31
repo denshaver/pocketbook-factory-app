@@ -38,13 +38,13 @@ const QuestionCompleted = ({ correctAnswers, handleReset, totalQuestions }) => {
           className={style.cricular}
           display="flex"
         >
-          <CircularProgressLabel width={73} top="43%">
+          <CircularProgressLabel width={73} top="43%" className={style.cricular}>
             <span className={style.totalAnswer}>{correctAnswers}/</span>
             <span className={style.totalAnswer}>{totalQuestions}</span>
           </CircularProgressLabel>
         </CircularProgress>
 
-        <div>
+        <div className={style.conTxtAndBtn}>
           <div className={style.conTextEnd}>
             <h2 className={style.tittleMessage}>{tittle}</h2>
             <p className={style.messageTxt}>{message}</p>

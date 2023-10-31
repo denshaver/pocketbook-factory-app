@@ -1,23 +1,23 @@
 .containerEnd{
     
-  display: flex;
-  margin: 40px 40px;
-  justify-content: center;
+    display: flex;
+    margin: 40px 40px;
     margin: auto;
-    width: 1200px;
-    border: 1px solid rgba(0, 0, 0, 100%);
+    max-width: 320px;
+    border: 1px solid rgb(0, 0, 0);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     padding-top: 120px;
     padding-bottom: 120px;
-    
     margin-top: 116px;
-   align-items: center;
+    align-items: center;
     background: #FAF9FA;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .btnAgain{
-
+    margin: auto;
     border-radius: 10px;
     border: 1px solid #2A292A;
     margin-top: 38px;
@@ -25,10 +25,11 @@
 
     color: #000;
     padding: 15px 33px;
+    color: #000;
+
     text-align: center;
-    /* Button */
     font-family: Noto Sans;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -38,10 +39,9 @@
 }  
 
 .messageTxt{
-    margin: 0;
     color: #000;
     font-family: Noto Sans;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -49,15 +49,16 @@
 
 .tittleMessage{
     color: #000;
-    margin: 0;
+
+    text-align: center;
     font-family: Noto Sans;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
 }
 .cricular{
-    margin-right: 104px;
+    margin-bottom: 40px;
 }
   
 .totalAnswer{
@@ -71,5 +72,10 @@
     line-height: normal;
 }
 .conTextEnd{
-    width: 442px;
+    width: 297px;
+}
+
+.conTxtAndBtn{
+    display: flex;
+    flex-direction: column;
 }
