@@ -50,7 +50,7 @@ const Question = ({
         <div className={style.conQuestionImg}>
 
           <div className={style.imgcon}>
-            <img src={question.img} alt="" width="393px" height="366px" />
+            <img src={question.img} alt=""  className={style.imgQues}/>
           </div>
 
           <div className={style.conItem}>
