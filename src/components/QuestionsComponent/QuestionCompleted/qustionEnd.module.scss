@@ -12,9 +12,17 @@
     margin-top: 116px;
     align-items: center;
     background: #FAF9FA;
-    flex-direction: column;
+    
     justify-content: center;
 }
+
+@media screen and (max-width: 768px) {
+    .containerEnd{
+        flex-direction: column;
+    }
+}
+
+
 
 .btnAgain{
     margin: auto;
@@ -78,4 +86,96 @@
 .conTxtAndBtn{
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (min-width: 1360px) {
+    .containerEnd{
+    
+        display: flex;
+        margin: 40px 40px;
+        margin: auto;
+        max-width: 1200px;
+        border: 1px solid rgb(0, 0, 0);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        margin-top: 116px;
+        background: #FAF9FA;
+        justify-content: space-evenly;
+        align-items: center;
+    
+    }
+    
+    .btnAgain{
+        margin: 0;
+        border-radius: 10px;
+        border: 1px solid #2A292A;
+        margin-top: 38px;
+        background: #FAF9FA;
+    
+        color: #000;
+        padding: 15px 33px;
+        color: #000;
+    
+        width: 160px;
+        color: #000;
+
+        text-align: center;
+        /* Button */
+        font-family: Noto Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        z-index: 1;
+        position: relative;
+        cursor: pointer;
+    }  
+    
+    .messageTxt{
+        color: #000;
+    font-family: Noto Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    }
+    
+    .tittleMessage{
+        color: #000;
+
+        font-family: Noto Sans;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-align: justify;
+    }
+    .cricular{
+        margin-bottom: 40px;
+    }
+      
+    .totalAnswer{
+        color: #2A292A;
+    
+        text-align: center;
+        font-family: Noto Sans;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .conTextEnd{
+        width: 442px;
+    }
+    
+    .conTxtAndBtn{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
 }

@@ -15,6 +15,30 @@
   z-index: -9999999;
 }
 
-    //  position: absolute;
-    // top: 35px;
-    // z-index: -9999999;
+
+@media screen and (min-width: 744px) {
+   
+  .readerContainerPosition{
+
+  position: absolute;
+  top: 35px;
+  left: -500px;
+  z-index: -9999999;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .readerContainerPosition{
+    position: absolute;
+  top: 35px;
+  left: 0;
+  z-index: -9999999;
+
+  }
+}
+
+
+
+
+
+    
