@@ -3,7 +3,7 @@
     display: flex;
     margin: 40px 40px;
     margin: auto;
-    max-width: 320px;
+    min-width: 320px;
     border: 1px solid rgb(0, 0, 0);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
@@ -11,7 +11,7 @@
     padding-bottom: 40px;
     padding-left: 11px;
     padding-right: 11px;
-    margin-top: 116px;
+    
     align-items: center;
     background: #FAF9FA;
     
@@ -60,7 +60,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    text-align: center;
+    
 }
 
 .tittleMessage{
@@ -193,9 +193,28 @@
         width: 442px;
     }
     .containerEnd{
-        padding-left: 79px;
-        padding-right: 79px;
+        
        
-        min-width: 600px;
+        width: 600px;
+    }
+
+    .messageTxt{
+        color: #000;
+    font-family: Noto Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    }
+    .tittleMessage{
+        color: #000;
+
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
     }
 }

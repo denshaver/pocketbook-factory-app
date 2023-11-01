@@ -21,12 +21,13 @@
 
 .gridChakra{
   display: grid;
-    grid-gap: 40px;
+    grid-gap: 20px;
     grid-template-columns: repeat(3, 1fr);
-    margin-bottom: 17px;
+    margin-bottom: 40px;
     margin-top: 17px;
     justify-items: center;
     width: 360px;
+    align-items: center
 }
 @media screen and (max-width: 744px) {
 
@@ -50,15 +51,16 @@
       align-items: center;
 }
 
+.imgGrid:nth-child(n+13){
+  display: none;
+}
 
 .imgGrid{
   width: 140px;
 }
 
 
-.imgGrid:nth-child(n+13){
-  display: none;
-}
+
 
 .gridChakra{
   display: grid;
@@ -98,6 +100,9 @@
       justify-items: center;
       width: 1360px;
       margin: auto;
+  }
+  .imgGrid{
+    width: 140px;
   }
 }
 

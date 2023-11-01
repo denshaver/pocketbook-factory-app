@@ -6,17 +6,20 @@
    
 }
 .quesText{
+    
+
     color: #2A292A;
 
-font-family: Noto Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 
 }
+
 .tittleTextQues{
-    width: 174px;
+    
 }
 .btnitem{
     display: flex;
@@ -45,7 +48,7 @@ line-height: normal;
     line-height: normal;
     cursor: pointer;
     transition: border-color 0.3s, background-color 0.3s;
-   
+    width: 280px;
 }
 
 
@@ -89,7 +92,7 @@ line-height: normal;
     border: none;
     color: #ffff;
     padding: 15px 35px;
-    min-width: 280px;
+    width: 280px;
     
     cursor: pointer;
     
@@ -113,7 +116,7 @@ line-height: normal;
     
 }
 
-@media screen and (max-width:760px) {
+@media screen and (max-width:1200px) {
     .conQuestionImg{
         margin-top: 20px;
         flex-direction: column;
@@ -142,14 +145,15 @@ line-height: normal;
     justify-content: space-between;
     margin-left: 20px;
     margin-right: 20px;
+    flex-direction: column-reverse;
 }
 
 .currentQuestion{
     color: #2A292A;
 
-    text-align: center;
+    margin-bottom: 10px;
     font-family: Noto Sans;
-    font-size: 24px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -160,6 +164,7 @@ line-height: normal;
     width: 280px;
     height: 260px;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 

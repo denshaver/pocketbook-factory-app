@@ -12,6 +12,9 @@ h1,h2,h3,h4,ul,li,p,div{
 @media screen and (min-width: 1340px) {
     .conFooter{
         display: flex;
+        padding-left: 0;
+        padding-right: 0;
+        justify-content: none;
     }
     
 }

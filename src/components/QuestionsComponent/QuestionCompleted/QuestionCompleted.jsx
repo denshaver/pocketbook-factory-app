@@ -28,7 +28,7 @@ const QuestionCompleted = ({ correctAnswers, handleReset, totalQuestions }) => {
 
   return (
     <>
-      <ImgReadContainer />
+      {/* <ImgReadContainer /> */}
       <div className={style.containerEnd}>
         <CircularProgress
           value={value}
