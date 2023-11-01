@@ -28,7 +28,10 @@ const QuestionCompleted = ({ correctAnswers, handleReset, totalQuestions }) => {
 
   return (
     <>
-      <ImgReadContainer />
+     <div className={style.quesComplatedbackground}>
+        <ImgReadContainer />
+      </div>
+      
       <div className={style.containerEnd}>
         <CircularProgress
           value={value}
@@ -59,6 +62,8 @@ const QuestionCompleted = ({ correctAnswers, handleReset, totalQuestions }) => {
           </button>
         </div>
       </div>
+
+      
     </>
   );
 };

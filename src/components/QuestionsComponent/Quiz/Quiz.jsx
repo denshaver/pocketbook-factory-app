@@ -25,7 +25,7 @@ const Quiz = ({ handleReset }) => {
         '3) Text-to-Speech feature',
         '4) Professional sunscreen',
       ],
-      correctAnswerIndex: 1,
+      correctAnswerIndex: 0,
       numberAnswerIndex: 1,
       img: imgQuiz1,
     },
@@ -74,7 +74,7 @@ const Quiz = ({ handleReset }) => {
         'C) Built-in speaker',
         'D) Karaoke book singing ',
       ],
-      correctAnswerIndex: 2,
+      correctAnswerIndex: 3,
       numberAnswerIndex: 5,
       img: imgQuiz5
     },
@@ -86,7 +86,7 @@ const Quiz = ({ handleReset }) => {
         'C)  Text-to-Speech',
         'D) Bedtime story mode',
       ],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 2,
       numberAnswerIndex: 6,
       img: imgQuiz6
     },
@@ -109,7 +109,7 @@ const Quiz = ({ handleReset }) => {
         'C) Graphic formats',
         'D) Tarot cards formats',
       ],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 3,
       numberAnswerIndex: 8,
       img: imgQuiz8
     },
@@ -121,7 +121,7 @@ const Quiz = ({ handleReset }) => {
         'C) Buy with a discount',
         'D) Chat with authors',
       ],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 1,
       numberAnswerIndex: 9,
       img: imgQuiz9
     },
@@ -133,7 +133,7 @@ const Quiz = ({ handleReset }) => {
         'C) Color E Ink screens',
         'D) X-ray screens',
       ],
-      correctAnswerIndex: 0,
+      correctAnswerIndex: 2,
       numberAnswerIndex: 10,
       img: imgQuiz10
     },

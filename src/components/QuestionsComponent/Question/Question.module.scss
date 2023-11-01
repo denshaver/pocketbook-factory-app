@@ -145,7 +145,13 @@
     justify-content: space-between;
     margin-left: 20px;
     margin-right: 20px;
-    flex-direction: column-reverse;
+    
+}
+
+@media screen and (max-width: 744px) {
+    .conQuesTextAndNumb{
+        flex-direction: column-reverse;
+    }
 }
 
 .currentQuestion{
@@ -197,7 +203,19 @@
     .listBtnItem:nth-child(3) {
     margin-right: 25px;
 }
+.conQuesTextAndNumb{
+    align-items: center;
+}
+.currentQuestion{
+    color: #2A292A;
 
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
 .nextbtn{
     display: flex;
@@ -242,6 +260,7 @@ line-height: normal;
 .nextQuestionBtn{
     width: 140px;
 }
+
 }
 
 
@@ -271,6 +290,8 @@ line-height: normal;
         gap: 74px;
         justify-content: space-around;
         align-items: center;
+
+        
     }
 
    
