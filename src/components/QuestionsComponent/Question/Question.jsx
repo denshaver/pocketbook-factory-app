@@ -64,7 +64,7 @@ const Question = ({
                           ? style.correctAnswer
                           : selectedOption === index
                           ? style.wrongAnswer
-                          : style.defaultButton
+                          : style.hiddenButton
                         : style.defaultButton
                     }`}
                     onClick={() => handleOptionSelect(index)}
