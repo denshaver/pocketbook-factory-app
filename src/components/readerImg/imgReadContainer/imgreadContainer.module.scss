@@ -11,10 +11,23 @@
 .readerContainerPosition{
   position: absolute;
   top: 35px;
-  left: -850px;
+  
   z-index: -9999999;
 }
 
+.imgGrid{
+  width: 100px;
+}
+
+.gridChakra{
+  display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 17px;
+    margin-top: 17px;
+    justify-items: center;
+    width: 360px;
+}
 
 @media screen and (min-width: 744px) {
    

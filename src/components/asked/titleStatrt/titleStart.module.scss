@@ -3,7 +3,8 @@
     margin: auto;
     align-items: center;
     flex-direction: column;
-    margin-top: 260px;
+    margin-top: 180px;
+    margin-bottom: 213px;
     border-radius: 20px;
     border: 1px solid #000;
     padding: 20px 0px 20px 0px;
@@ -61,9 +62,15 @@ line-height: normal;
 .video{
     margin: auto;
    
-    
+    max-width: 760px;
 }
-
+.conVideo{
+    max-width: 760px;
+    margin: auto;
+}
+.videoIframe{
+    width: 360px;
+}
 
 @media screen and (min-width: 744px) {
     .title{
@@ -146,7 +153,7 @@ line-height: normal;
         cursor: pointer;
     }
     .title{
-        color: var(--text-black, #000);
+        color:  #000;
     text-align: center;
     font-family: Noto Sans;
     font-size: 58px;

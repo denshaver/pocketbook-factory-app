@@ -41,7 +41,7 @@ const handleReset = () => {
         <>
          <Header />
         <div className={style.conVideo}>
-          <AspectRatio maxW="1360px" className={style.video}>
+          <AspectRatio  className={style.video}>
             <iframe
               title="naruto"
               src="https://www.youtube.com/embed/QhBnZ6NPOY0"
