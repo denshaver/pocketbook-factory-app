@@ -9,6 +9,12 @@ h1,h2,h3,h4,ul,li,p,div{
     gap: 217px;
     padding: 30px 40px;
 }
+@media screen and (min-width: 1340px) {
+    .conFooter{
+        display: flex;
+    }
+    
+}
 .conFooterTxt{
     display: flex;
     align-items: center;
