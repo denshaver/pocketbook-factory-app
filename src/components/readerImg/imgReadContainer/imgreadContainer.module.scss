@@ -19,7 +19,7 @@
 
 @media screen and (min-width: 1360px) {
   .imgGrid{
-    width: 140px;
+    width: 160px;
   }
 }
 
@@ -113,6 +113,10 @@
   .imgGrid{
     width: 140px;
   }
+
+  .imgGrid:nth-child(7), .imgGrid:nth-child(12) {
+    width: 160px;
+}
 }
 
 

@@ -5,12 +5,14 @@ import {FiInstagram} from 'react-icons/fi'
 import {FaTwitter} from 'react-icons/fa'
 import {BiLogoTelegram} from 'react-icons/bi'
 import {ImYoutube} from 'react-icons/im';
+import Facebook from '../../img/Facebook.png'
+import Instagram  from '../../img/Instagram.png';
 
 export const Footer = () => {
   return (
     <div className={style.conFooter}>
-      <div>
-        <h3>PocketBook</h3>
+      <div className={style.conTittleFooter}>
+        <h3 className={style.tittleFooter}>PocketBook</h3>
       </div>
       <div className={style.conFooterTxt}>
         <h3 className={style.txtfooter}>
@@ -21,12 +23,12 @@ export const Footer = () => {
       </div>
       <div>
       <ul className={style.list}>
-                <li className={style.itemlist}><FaFacebookF  fill='#fff'/></li>
-                <li className={style.itemlist}><FiInstagram fill='#fff'/></li>
-                <li className={style.itemlist}><FaTwitter fill='#fff'/></li>
-                <li className={style.itemlist}><BsTiktok fill='#fff'/></li>
-                <li className={style.itemlist}><ImYoutube fill='#fff'/></li>
-                <li className={style.itemlist}><BiLogoTelegram fill='#fff'/></li>
+                <li className={style.itemlist}><a href="/"><img src={Facebook} alt="" /></a> </li>
+                <li className={style.itemlist}> <a href="/"><img src={Instagram} alt="" /></a></li>
+                <li className={style.itemlist}> <a href="/"><FaTwitter fill='#fff'/></a></li>
+                <li className={style.itemlist}> <a href="/"><BsTiktok fill='#fff'/></a></li>
+                <li className={style.itemlist}> <a href="/"><ImYoutube fill='#fff'/></a></li>
+                <li className={style.itemlist}> <a href="/"><BiLogoTelegram fill='#fff'/></a></li>
             </ul>
       </div>
     </div>
