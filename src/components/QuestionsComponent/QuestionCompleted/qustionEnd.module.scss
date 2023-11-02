@@ -124,7 +124,7 @@
         border-radius: 10px;
         padding-top: 120px;
         padding-bottom: 120px;
-        margin-top: 116px;
+        margin-top: 150px;
         background: #FAF9FA;
         justify-content: space-evenly;
         align-items: center;
@@ -179,6 +179,15 @@
     }
     .cricular{
         margin-bottom: 40px;
+        top: 43%;
+    }
+
+    @media screen and (min-width: 1200px) {
+        .cricular{
+            margin-bottom: 0px;
+            top: 45%;
+        }
+        
     }
       
     .totalAnswer{
