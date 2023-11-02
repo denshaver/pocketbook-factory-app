@@ -5,9 +5,11 @@ import {BsTiktok} from 'react-icons/bs'
 import {FaTwitter} from 'react-icons/fa'
 import {BiLogoTelegram} from 'react-icons/bi'
 import {ImYoutube} from 'react-icons/im';
-import Facebook from '../../img/Facebook.png'
-import Instagram  from '../../img/Instagram.png';
-
+import Facebook from '../../img/Facebook.jpg'
+import Instagram  from '../../img/Instagram.jpg';
+import twitter from '../../img/Twitter.jpg';
+import TikTok from '../../img/TikTok.jpg'
+import Youtube from '../../img/Youtube.jpg'
 export const Footer = () => {
   return (
     <div className={style.conFooter}>
@@ -23,12 +25,12 @@ export const Footer = () => {
       </div>
       <div>
       <ul className={style.list}>
-                <li className={style.itemlist}><a href="/"><img src={Facebook} alt="" /></a> </li>
-                <li className={style.itemlist}> <a href="/"><img src={Instagram} alt="" /></a></li>
-                <li className={style.itemlist}> <a href="/"><FaTwitter fill='#fff'/></a></li>
-                <li className={style.itemlist}> <a href="/"><BsTiktok fill='#fff'/></a></li>
-                <li className={style.itemlist}> <a href="/"><ImYoutube fill='#fff'/></a></li>
-                <li className={style.itemlist}> <a href="/"><BiLogoTelegram fill='#fff'/></a></li>
+                <li className={style.itemlist}><a href="/"><img src={Facebook} alt=""width="24px"  className={style.imgitem}/></a> </li>
+                <li className={style.itemlist}> <a href="/"><img src={Instagram} alt=""width="24px"  className={style.imgitem}/></a></li>
+                <li className={style.itemlist}> <a href="/"><img src={twitter} alt="" width="24px" className={style.imgitem}/></a></li>
+                <li className={style.itemlist}> <a href="/"><img src={twitter} alt="" width="24px" className={style.imgitem}/></a></li>
+                <li className={style.itemlist}> <a href="/"><img src={TikTok} alt="" width="24px" className={style.imgitem}/></a></li>
+                <li className={style.itemlist}> <a href="/"><img src={Youtube} alt="" width="24px" className={style.imgitem}/></a></li>
             </ul>
       </div>
     </div>
