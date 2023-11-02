@@ -1,7 +1,7 @@
 import style from './footer.module.scss';
-import {FaFacebookF} from 'react-icons/fa'
+// import {FaFacebookF} from 'react-icons/fa'
 import {BsTiktok} from 'react-icons/bs'
-import {FiInstagram} from 'react-icons/fi'
+// import {FiInstagram} from 'react-icons/fi'
 import {FaTwitter} from 'react-icons/fa'
 import {BiLogoTelegram} from 'react-icons/bi'
 import {ImYoutube} from 'react-icons/im';
