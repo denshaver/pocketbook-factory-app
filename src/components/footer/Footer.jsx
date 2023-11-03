@@ -3,9 +3,10 @@ import style from './footer.module.scss';
 import Facebook from '../../img/Facebook.jpg'
 import Instagram  from '../../img/Instagram.jpg';
 import twitter from '../../img/Twitter.jpg';
-import tikTok from '../../img/tiktok.jpg'
-import Youtube from '../../img/YouTube.jpg'
-import Telegram from '../../img/Telegram.jpg'
+
+import Youtube from '../../img/YouTube.jpg';
+import Telegram from '../../img/Telegram.jpg';
+import tiktok from '../../img/tiktok.jpg'
 export const Footer = () => {
   return (
     <div className={style.conFooter}>
@@ -26,7 +27,7 @@ export const Footer = () => {
                 <li className={style.itemlist}> <a href="https://instagram.com/pocketbook.ch?igshid=YmMyMTA2M2Y="><img src={Instagram} alt=""width="24px"  className={style.imgitem}/></a></li>
                 <li className={style.itemlist}> <a href="https://twitter.com/pocketbook"><img src={twitter} alt="" width="24px" className={style.imgitem}/></a></li>
                 
-                <li className={style.itemlist}> <a href="https://www.tiktok.com/@pocketbook_ch?_t=8aRhihYeUMw&_r=1"><img src={tikTok} alt="" width="24px" className={style.imgitem}/></a></li>
+                <li className={style.itemlist}> <a href="https://www.tiktok.com/@pocketbook_ch?_t=8aRhihYeUMw&_r=1"><img src={tiktok} alt="" width="24px" className={style.imgitem}/></a></li>
                 
                 <li className={style.itemlist}> <a href="https://www.youtube.com/@pocketbook_ch/featured"><img src={Youtube} alt="" width="24px" className={style.imgitem}/></a></li>
                 <li className={style.itemlist}> <a href="/"><img src={Telegram} alt="" width="24px" className={style.imgitem}/></a></li>
