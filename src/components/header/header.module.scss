@@ -39,18 +39,25 @@ display: flex;
 
     .conHeader{
         display: flex;
-        justify-content: space-between;
-        align-items: center;
         margin: 0;
         margin-bottom: 55px;
+        align-items: center;
+        justify-content: center;
+      
+       
         
     }
     
 }
 
-
+.conTextTittle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .titleWelcome{
-    color: #000;
+    color:  #000;
     text-align: center;
     font-family: Noto Sans;
     font-size: 32px;
@@ -68,6 +75,7 @@ display: flex;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    max-width: 300px;
     margin-bottom: 40px;
 }
 
@@ -91,7 +99,46 @@ display: flex;
     }
 
     .txtTitleHeader{
-        width: 620px;
+        width: 169px;
         margin: 0;
+    }
+    .parHeader{
+        max-width: 750px;
+        color: #000;
+
+        text-align: center;
+        font-family: Noto Sans;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px; /* 128.571% */
+
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .titleWelcome{
+        color: var(--text-black, #000);
+        text-align: center;
+        font-family: Noto Sans;
+        font-size: 58px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        max-width: 1360px;
+
+    }
+
+    .parHeader{
+    color: #000;
+
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 128.571% */
+    max-width: 1360px;
     }
 }

@@ -8,19 +8,19 @@ const QuestionCompleted = ({ correctAnswers, handleReset, totalQuestions }) => {
   let tittle = '';
   switch (true) {
     case correctAnswers >= 0 && correctAnswers <= 4:
-      message = `Oops, you're an E-Reader Explorer in training! But don't worry, you still get the 'E-Reader Adventurer' award. Keep learning, and you'll become a pro in no time!`;
+      message = `You are a true Jedi Master of this quiz, showing exceptional knowledge of the PocketBook universe`;
       value = 10;
-      tittle = 'If you got 0-4 correct answers:';
+      tittle = 'Try Better';
       break;
     case correctAnswers >= 5 && correctAnswers <= 7:
-      message = `Not bad, you're an E-Reader Enthusiast! You've earned the "Page-Turner" award. Keep exploring the world of e-reading!`;
+      message = `You have done well, young Padawan, but there is still much to learn about the PocketBook Force`;
       value = 50;
-      tittle = 'If you got 5-7 correct answers:';
+      tittle = 'Good';
       break;
     case correctAnswers >= 8 && correctAnswers <= 10:
-      message = `Congratulations, you're an E-Reader Extraordinaire! You've unlocked the "Master of the E-Verse" award. Time to celebrate with a good e-book!`;
+      message = `You might need more training with the Ewoks before becoming a PocketBook Jedi. Keep learning!`;
       value = 100;
-      tittle = 'If you got 8-10 correct answers:';
+      tittle = 'Excellent';
       break;
     default:
       break;
@@ -41,6 +41,7 @@ const QuestionCompleted = ({ correctAnswers, handleReset, totalQuestions }) => {
           className={style.cricular}
           display="flex"
         >
+          <p className={style.cricularPar}>{tittle}</p>
           <CircularProgressLabel width={73} top="43%" className={style.cricular}>
             <span className={style.totalAnswer}>{correctAnswers}/</span>
             <span className={style.totalAnswer}>{totalQuestions}</span>
@@ -49,7 +50,7 @@ const QuestionCompleted = ({ correctAnswers, handleReset, totalQuestions }) => {
 
         <div className={style.conTxtAndBtn}>
           <div className={style.conTextEnd}>
-            <h2 className={style.tittleMessage}>{tittle}</h2>
+            {/* <h2 className={style.tittleMessage}>{tittle}</h2> */}
             <p className={style.messageTxt}>{message}</p>
           </div>
 
