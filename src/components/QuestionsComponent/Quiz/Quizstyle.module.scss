@@ -23,10 +23,10 @@
     }
 }
 
-@media screen and (min-width: 1360px) {
+@media screen and (min-width: 1200px) {
     .containerQuiz{
         margin-top: 116px;
-        max-width: 1200px;
+        min-width: 1200px;
         padding-top: 30px;
         padding-bottom: 0px;
     }

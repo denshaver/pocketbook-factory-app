@@ -177,8 +177,6 @@
 
 @media screen and (min-width: 1360px) {
     .conQuestionImg{
-        padding-left: 30px;
-        padding-right: 30px;
         display: flex;
         margin-top: 30px;
         justify-content: space-evenly;
@@ -226,6 +224,7 @@
 .conItem{
     display: flex;
     align-items: flex-end;
+    max-width: 718px;
 }
 
 .quesText{
