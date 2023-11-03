@@ -1,10 +1,10 @@
 import style from './footer.module.scss';
 
 import Facebook from '../../img/Facebook.jpg'
-import YouTube from '../../img/YouTube.jpg';
+
 import Instagram  from '../../img/Instagram.jpg';
 import Twitter from '../../img/Twitter.jpg';
-
+import YouTube  from '../../img/YouTube.jpg';
 
 import Telegram from '../../img/Telegram.jpg';
 import tiktok from '../../img/tiktok.jpg'
