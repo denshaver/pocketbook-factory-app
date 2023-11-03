@@ -7,7 +7,7 @@ import Twitter from '../../img/Twitter.jpg';
 import YouTube  from './YouTube.jpg';
 
 import Telegram from '../../img/Telegram.jpg';
-import tiktok from '../../img/tiktok.jpg'
+import tiktok from './tiktok.jpg'
 export const Footer = () => {
   return (
     <div className={style.conFooter}>
