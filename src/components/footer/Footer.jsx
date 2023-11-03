@@ -18,6 +18,7 @@ export const Footer = () => {
           <span className={style.spanTxt}><a href="https://presentation.pocketbook.ch" className={style.linkCorp}>corporate presentation</a></span>
         </h3>
         {/* <p className={style.parTxt}>2023 PocketBook</p> */}
+        {/* fd */}
       </div>
       <div>
       <ul className={style.list}>
