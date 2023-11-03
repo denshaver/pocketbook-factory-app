@@ -1,12 +1,12 @@
 import style from './footer.module.scss';
 
-import Facebook from '../../img/Facebook.jpg'
+import Facebook from './Facebook.jpg'
 
-import Instagram  from '../../img/Instagram.jpg';
-import Twitter from '../../img/Twitter.jpg';
+import Instagram  from './Instagram.jpg';
+import Twitter from './Twitter.jpg';
 import YouTube  from './YouTube.jpg';
 
-import Telegram from '../../img/Telegram.jpg';
+import Telegram from './Telegram.jpg';
 import tiktok from './tiktok.jpg'
 export const Footer = () => {
   return (
