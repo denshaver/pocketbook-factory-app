@@ -27,7 +27,8 @@ const Header = () => {
             </ul>
         </div>
 
-        <h2 className={style.titleWelcome}>Welcome word Instruction</h2>
+        <h2 className={style.titleWelcome}>Welcome to a special page about a special gadget – PocketBook</h2>
+        <p className={style.parHeader}>Watch the video to learn the most important things about PocketBook <br/> e-readers and their capabilities.</p>
         </>
     )
 };

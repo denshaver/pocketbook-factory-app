@@ -4,10 +4,10 @@
     align-items: center;
     flex-direction: column;
     margin-top: 200px;
-    margin-bottom: 213px;
+   
     border-radius: 20px;
     border: 1px solid #000;
-    padding: 20px 0px 20px 0px;
+    padding: 20px 28px 20px 28px;
     background: #FFF;
     width: 320px;
     box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.14);
@@ -39,7 +39,7 @@
     cursor: pointer;
 }
 .title{
-    color: var(--text-black, #000);
+    color: #000;
     text-align: center;
     font-family: Noto Sans;
     font-size: 32px;
@@ -47,18 +47,20 @@
     font-weight: 600;
     line-height: normal;
     margin-bottom: 15px;
+    max-width: 264px;
 }
 
 .par{
     color: #000;
-
-text-align: center;
-font-family: Noto Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-bottom: 15px;
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+    max-width: 234px;
+   
 }
 
 .video{
@@ -84,16 +86,18 @@ margin-bottom: 15px;
     font-style: normal;
     font-weight: 600;
     line-height: 74px;
+    max-width: 399px;
     }
     .par {
         color: #000;
-
-    text-align: center;
-    font-family: Noto Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 36px; /* 180% */
+        text-align: center;
+        font-family: Noto Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 10px;
+        max-width: 283px;
     }
 
     .btnStart{

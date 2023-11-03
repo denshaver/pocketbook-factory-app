@@ -175,7 +175,7 @@
 }
 
 
-@media screen and (min-width: 1360px) {
+@media screen and (min-width: 1201px) {
     .conQuestionImg{
         display: flex;
         margin-top: 30px;
@@ -271,7 +271,7 @@ line-height: normal;
 }
 
 
-@media screen and (min-width: 744px)and (max-width: 1200px) {
+@media screen and (min-width: 743px)and (max-width: 1200px) {
     .btnitem{
         flex-direction: column;
         align-items: center;
@@ -293,13 +293,11 @@ line-height: normal;
         line-height: normal;
     }
 
-    .conQuesTextAndNumb{
-        gap: 74px;
-        justify-content: space-around;
-        align-items: center;
+  .currentQuestion{
+    display: flex;
+    align-items: center;
 
-        
-    }
+  }
 
    
 

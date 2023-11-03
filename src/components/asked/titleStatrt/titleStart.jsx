@@ -52,8 +52,8 @@ const handleReset = () => {
         
         <ImgReadContainer/>
         <div className={style.container}>
-          <h1 className={style.title}>Quiz starts here</h1>
-          <p className={style.par}>Are You an E-Reader Expert?</p>
+          <h1 className={style.title}>Time to test your knowledge!</h1>
+          <p className={style.par}>Take the Quiz to see if you're a PocketBook expert</p>
 
           <button type="button" className={style.btnStart} onClick={btnhandleSubmit}>
             Get ready
