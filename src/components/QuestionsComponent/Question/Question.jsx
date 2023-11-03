@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import style from './Question.module.scss';
 
-import EastIcon from '@mui/icons-material/East';
+// import EastIcon from '@mui/icons-material/East';
 const Question = ({
   question,
   onAnswer,
@@ -77,13 +77,13 @@ const Question = ({
             </ul>
             {answered ? <div className={style.nextbtn}>
               <button onClick={resetQuestion} className={style.nextQuestionBtn} disabled={btnhandleNext}>
-                NEXT <EastIcon/>
+                NEXT 
               </button>
             </div> : ''}
           </div>
         </div>
 
-        
+        {/* <EastIcon/> */}
       </div>
     </>
   );
