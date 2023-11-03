@@ -4,7 +4,7 @@ import Facebook from '../../img/Facebook.jpg'
 import Instagram  from '../../img/Instagram.jpg';
 import twitter from '../../img/Twitter.jpg';
 
-import Youtube from '../../img/YouTube.jpg';
+import YouTube from '../../img/YouTube.jpg';
 import Telegram from '../../img/Telegram.jpg';
 import tiktok from '../../img/tiktok.jpg'
 export const Footer = () => {
@@ -29,7 +29,7 @@ export const Footer = () => {
                 
                 <li className={style.itemlist}> <a href="https://www.tiktok.com/@pocketbook_ch?_t=8aRhihYeUMw&_r=1"><img src={tiktok} alt="" width="24px" className={style.imgitem}/></a></li>
                 
-                <li className={style.itemlist}> <a href="https://www.youtube.com/@pocketbook_ch/featured"><img src={Youtube} alt="" width="24px" className={style.imgitem}/></a></li>
+                <li className={style.itemlist}> <a href="https://www.youtube.com/@pocketbook_ch/featured"><img src={YouTube} alt="" width="24px" className={style.imgitem}/></a></li>
                 <li className={style.itemlist}> <a href="/"><img src={Telegram} alt="" width="24px" className={style.imgitem}/></a></li>
             </ul>
       </div>
