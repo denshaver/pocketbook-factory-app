@@ -141,4 +141,11 @@ display: flex;
     line-height: 36px; /* 128.571% */
     max-width: 1360px;
     }
+    .conHeader{
+        display: flex;
+        margin: 0;
+        margin-bottom: 55px;
+        align-items: center;
+        justify-content: flex-start;
+    }
 }
