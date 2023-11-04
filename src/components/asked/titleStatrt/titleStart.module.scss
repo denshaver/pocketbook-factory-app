@@ -123,7 +123,7 @@
 
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1100px) {
     .container{
         display: flex;
         margin: auto;
@@ -198,5 +198,8 @@
     }
     .conVideo{
         min-width: 1440px;
+    }
+    .videoIframe{
+        width: 1360px;
     }
 }
