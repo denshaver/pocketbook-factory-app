@@ -3,11 +3,11 @@
     margin: auto;
     align-items: center;
     flex-direction: column;
-    margin-top: 200px;
+    margin-top: 180px;
    
     border-radius: 20px;
     border: 1px solid #000;
-    padding: 20px 28px 20px 28px;
+    padding: 20px 0px 20px 0px;
     background: #FFF;
     width: 320px;
     box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.14);
@@ -16,7 +16,7 @@
 }
 
 .btnStart{
-    padding: 15px 42px;
+    padding: 15px 30px;
     background-color: #FAF9FA;
     outline: none;
     border-radius: 10px;
@@ -142,7 +142,7 @@
     }
     
     .btnStart{
-        padding: 15px 42px;
+        padding: 15px 35px;
         background-color: #FAF9FA;
         outline: none;
         border-radius: 10px;

@@ -128,8 +128,10 @@
     padding: 14px 30px;
     border-radius: 6px;
     background-color: #1A2B4F;
-    left: 27%;
+    left: 83px;
 }
+
+
 
 @media screen and (min-width: 1201px) {
     .containerEnd{
@@ -149,7 +151,9 @@
         align-items: center;
     
     }
-    
+    .cricularPar{
+        left: 27%;
+    }
     .btnAgain{
         margin: 0;
         border-radius: 10px;

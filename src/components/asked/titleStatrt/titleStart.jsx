@@ -56,7 +56,7 @@ const handleReset = () => {
           <p className={style.par}>Take the Quiz to see if you're a PocketBook expert</p>
 
           <button type="button" className={style.btnStart} onClick={btnhandleSubmit}>
-            Get ready
+            GET READY 
           </button>
           </div>
           <Footer/>
