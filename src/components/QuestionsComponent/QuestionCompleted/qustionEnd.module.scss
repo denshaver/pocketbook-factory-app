@@ -117,7 +117,7 @@
     flex-direction: column;
 }
 .cricularPar{
-    position: absolute;
+   
     color: #FAF9FA;
     text-align: center;
     font-family: Noto Sans;
@@ -125,10 +125,16 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    padding: 14px 30px;
+    padding: 14px 1px;
     border-radius: 6px;
     background-color: #1A2B4F;
-    left: 83px;
+   
+}
+
+.cricularContainerPar{
+    
+    
+
 }
 
 
@@ -151,9 +157,7 @@
         align-items: center;
     
     }
-    .cricularPar{
-        left: 27%;
-    }
+    
     .btnAgain{
         margin: 0;
         border-radius: 10px;

@@ -61,7 +61,7 @@
 // }
 
 
-@media screen and (min-width: 744px) and (max-width: 1200px) {
+@media screen and (min-width: 744px) and (max-width: 1150px) {
    
 .photoContainer{
     position: relative;
@@ -87,7 +87,7 @@
 
 .gridChakra{
   display: grid;
-    grid-gap: 40px;
+    grid-gap: 62px;
     grid-template-columns: repeat(4, 1fr);
     margin-bottom: 17px;
     margin-top: 60px;
@@ -98,10 +98,10 @@
   
   .readerContainerPosition{
 
-  position: absolute;
-  top: 1px;
-  
-  z-index: -9999999;
+    position: absolute;
+    top: -30px;
+
+    z-index: -9999999;
   }
 }
 
