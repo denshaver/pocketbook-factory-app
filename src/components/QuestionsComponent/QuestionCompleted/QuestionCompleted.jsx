@@ -9,20 +9,20 @@ const QuestionCompleted = ({ correctAnswers, handleReset, totalQuestions }) => {
   let par = ''
   switch (true) {
     case correctAnswers >= 0 && correctAnswers <= 4:
-      message = `You are a true Jedi Master of this quiz, showing exceptional knowledge of the PocketBook universe`;
+      message = `You might need more training with the Ewoks before becoming a PocketBook Jedi. Keep learning!`;
       value = 10;
       tittle = 'Try Better';
       par = 'Ewok :';
 
       break;
     case correctAnswers >= 5 && correctAnswers <= 7:
-      message = `You have done well, young Padawan, but there is still much to learn about the PocketBook Force`;
+      message = `You have done well, young Padawan, but there is still much to learn about the PocketBook Force.`;
       value = 50;
       tittle = 'Good';
       par = 'Padawan: '
       break;
     case correctAnswers >= 8 && correctAnswers <= 10:
-      message = `You might need more training with the Ewoks before becoming a PocketBook Jedi. Keep learning!`;
+      message = ` You are a true Jedi Master of this quiz, showing exceptional knowledge of the PocketBook universe.`;
       value = 100;
       tittle = 'Excellent';
       par = 'Jedi Master:';
