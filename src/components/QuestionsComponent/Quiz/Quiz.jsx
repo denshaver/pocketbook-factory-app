@@ -42,7 +42,7 @@ const Quiz = ({ handleReset }) => {
       img: imgQuiz2,
     },
     {
-      text: 'Caution: smartphones and tablets can cause dependence on sockets. But PocketBook is so energy efficient that you can easily forget what its charger looks like. How long can the e-reader work on a single battery charge?',
+      text: 'Smartphones and tablets will not last even two days without charging. But PocketBook is so energy efficient that you can easily forget what a charger even looks like. How long can the e-reader work on a single battery charge?',
       options: [
         'A) Up to 1 month',
         'B) Less than 1 week',
