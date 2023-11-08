@@ -222,7 +222,7 @@ iframe, video {
     }
     .conVideo{
         display: flex;
-        min-width: 1440px;
+        max-width: 1440px;
     
         justify-content: center;
     }

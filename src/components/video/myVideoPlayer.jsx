@@ -10,7 +10,7 @@ import video from './animation.mp4'
   return (
    
 
-    <Player autoPlay src={video} className={style.aspectvideo}>
+    <Player autoPlay src={video}  className={style.aspectvideo}>
       
         <BigPlayButton position="center"/>
       <ControlBar autoHide={false}/>
