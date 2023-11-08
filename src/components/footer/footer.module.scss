@@ -13,7 +13,9 @@ h1,h2,h3,h4,ul,li,p,div{
 }
 
 
-
+.tittleFooter{
+    color: #000;
+}
 
 
 .conFooterTxt{
@@ -105,7 +107,7 @@ line-height: normal;
         flex-direction: row;
     }
     .tittleFooter{
-        color: rgba(0, 0, 0, 0.5);
+        color: black;
         font-family: Noto Sans;
         font-size: 16px;
         font-style: normal;
