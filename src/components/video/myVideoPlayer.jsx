@@ -12,7 +12,7 @@ import video from './animation.mp4'
 
     <Player autoPlay src={video} className={style.aspectvideo}>
       
-        <BigPlayButton position="center" />
+        <BigPlayButton position="center"/>
       <ControlBar autoHide={false}/>
     </Player>
 
