@@ -22,8 +22,8 @@ const Quiz = ({ handleReset }) => {
       options: [
         'A) Glare-free E Ink screen',
         'B) Special protection cover',
-        '3) Text-to-Speech feature',
-        '4) Professional sunscreen',
+        'C) Text-to-Speech feature',
+        'D) Professional sunscreen',
       ],
       correctAnswerIndex: 0,
       numberAnswerIndex: 1,
