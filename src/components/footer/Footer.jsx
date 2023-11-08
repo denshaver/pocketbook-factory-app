@@ -1,13 +1,9 @@
 import style from './footer.module.scss';
 
-import Facebook from './Facebook.jpg'
 
-import Instagram  from './Instagram.jpg';
-import Twitter from './Twitter.jpg';
 import YouTube  from './YouTube.jpg';
 
-import Telegram from './Telegram.jpg';
-import tiktok from './tiktok.jpg'
+
 export const Footer = () => {
   return (
     <div className={style.conFooter}>
