@@ -2,6 +2,7 @@ import style from './qustionEnd.module.scss';
 import * as React from 'react';
 import { CircularProgress, CircularProgressLabel } from '@chakra-ui/react';
 import { ImgReadContainer } from 'components/readerImg/imgReadContainer/ImgReadContainer';
+import { Footer } from 'components/footer/Footer';
 const QuestionCompleted = ({ correctAnswers, handleReset, totalQuestions }) => {
   let message = '';
   let value = 0;
@@ -76,6 +77,8 @@ const QuestionCompleted = ({ correctAnswers, handleReset, totalQuestions }) => {
         </div>
       </div>
 
+      
+    <Footer/>
       
     </>
   );
