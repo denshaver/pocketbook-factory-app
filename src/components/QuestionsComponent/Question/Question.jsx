@@ -29,7 +29,7 @@ const Question = ({
     handleNextQuestion();
     setbtnhandleNext(true);
   };
-  console.log(currentQuestion + 1);
+  
   return (
     <>
       <div className={style.containerQuestion}>

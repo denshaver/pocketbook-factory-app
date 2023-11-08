@@ -1,13 +1,19 @@
 import React from 'react';
 import style from '../titleStatrt/titleStart.module.scss';
 import Header from '../../header/header';
-import { AspectRatio } from '@chakra-ui/react';
+
 import { Footer } from 'components/footer/Footer';
+
 
 
 import Quiz from 'components/QuestionsComponent/Quiz/Quiz';
 import { ImgReadContainer } from 'components/readerImg/imgReadContainer/ImgReadContainer';
 import { useState } from 'react';
+
+import MyVideoPlayer from '../../video/myVideoPlayer'
+
+
+
 
 const TitleStart = () => {
     
@@ -41,13 +47,7 @@ const handleReset = () => {
         <>
          <Header />
         <div className={style.conVideo}>
-          <AspectRatio  className={style.video}>
-            <iframe
-              title="naruto"
-              src="https://www.youtube.com/embed/QhBnZ6NPOY0"
-              className={style.videoIframe}
-            />
-          </AspectRatio>
+          <MyVideoPlayer/>
         </div>
         
         <ImgReadContainer/>

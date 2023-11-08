@@ -1,5 +1,12 @@
 @import-normalize; /* bring in normalize.css styles */
 
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 body,html {
   
   margin: 0;
@@ -16,4 +23,8 @@ body,html {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+video {
+  width: 1360px;
 }
