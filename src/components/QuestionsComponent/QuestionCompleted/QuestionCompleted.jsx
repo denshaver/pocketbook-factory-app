@@ -3,30 +3,33 @@ import * as React from 'react';
 import { CircularProgress, CircularProgressLabel } from '@chakra-ui/react';
 import { ImgReadContainer } from 'components/readerImg/imgReadContainer/ImgReadContainer';
 import { Footer } from 'components/footer/Footer';
+import '../../../i18n'
+import { useTranslation } from 'react-i18next';
 const QuestionCompleted = ({ correctAnswers, handleReset, totalQuestions }) => {
   let message = '';
   let value = 0;
   let tittle = '';
-  let par = ''
+  let par = '';
+  const {t} = useTranslation()
   switch (true) {
     case correctAnswers >= 0 && correctAnswers <= 4:
-      message = `You might need more training with the Ewoks before becoming a PocketBook Jedi. Keep learning!`;
+      message = t('questionCompleted.answear.better.message');
       value = 10;
-      tittle = 'Try Better';
-      par = 'Ewok :';
+      tittle = t('questionCompleted.answear.better.tittle');
+      par = t('questionCompleted.answear.better.par');
 
       break;
     case correctAnswers >= 5 && correctAnswers <= 7:
-      message = `You have done well, young Padawan, but there is still much to learn about the PocketBook Force.`;
+      message = t('questionCompleted.answear.good.message');
       value = 50;
-      tittle = 'Good';
-      par = 'Padawan: '
+      tittle = t('questionCompleted.answear.good.tittle');
+      par = t('questionCompleted.answear.good.par');
       break;
     case correctAnswers >= 8 && correctAnswers <= 10:
-      message = ` You are a true Jedi Master of this quiz, showing exceptional knowledge of the PocketBook universe.`;
+      message = t('questionCompleted.answear.excellent.message');
       value = 100;
-      tittle = 'Excellent';
-      par = 'Jedi Master:';
+      tittle = t('questionCompleted.answear.excellent.tittle');
+      par = t('questionCompleted.answear.excellent.par');
 
       break;
     default:
@@ -72,7 +75,7 @@ const QuestionCompleted = ({ correctAnswers, handleReset, totalQuestions }) => {
             onClick={handleReset}
             className={style.btnAgain}
           >
-            PLAY AGAIN
+            {t('questionCompleted.answear.btnAgain')}
           </button>
         </div>
       </div>

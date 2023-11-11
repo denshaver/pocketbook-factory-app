@@ -4,6 +4,9 @@ import QuestionList from '../QuestionList/QuestionList';
 import QuestionCompleted from '../QuestionCompleted/QuestionCompleted';
 import style from './Quizstyle.module.scss';
 
+import { useTranslation } from 'react-i18next';
+import '../../../i18n'
+
 import imgQuiz1 from '../../../img/imgQiuz/imgQuiz1.jpg';
 import imgQuiz2 from '../../../img/imgQiuz/imgQuiz2.jpg';
 import imgQuiz3 from '../../../img/imgQiuz/imgQuiz3.jpg';
@@ -16,50 +19,52 @@ import imgQuiz9 from '../../../img/imgQiuz/imgQuiz9.jpg';
 import imgQuiz10 from '../../../img/imgQiuz/imgQuiz10.jpg';
 
 const Quiz = ({ handleReset }) => {
+  const {t} = useTranslation();
+  
   const questions = [
     {
-      text: 'To read something from a smartphone or tablet in the bright sun, you will need patience, and maybe… a solar eclipse. But PocketBook guarantees comfortable reading even in bright sun. What’s the secret? ',
+      text: t('qestion.qesOne.text'),
       options: [
-        'A) Glare-free E Ink screen',
-        'B) Special protection cover',
-        'C) Text-to-Speech feature',
-        'D) Professional sunscreen',
+        t('qestion.qesOne.options.A'),
+        t('qestion.qesOne.options.B'),
+        t('qestion.qesOne.options.C'),
+        t('qestion.qesOne.options.D'),
       ],
       correctAnswerIndex: 0,
       numberAnswerIndex: 1,
       img: imgQuiz1,
     },
     {
-      text: " Reading on PocketBook is like a Spa for your eyes. Why e-reader is considered to be one of the most eye-friendly devices in the world?",
+      text: t('qestion.qesTwo.text'),
       options: [
-        'A) Built-in speaker', 
-        'B) Adobe DRM support', 
-        'C) Paper-like E Ink screen',
-        'D) The screen emits healing vapors'
+        t('qestion.qesTwo.options.A'),
+        t('qestion.qesTwo.options.B'),
+        t('qestion.qesTwo.options.C'),
+        t('qestion.qesTwo.options.D'),
       ],
       correctAnswerIndex: 2,
       numberAnswerIndex: 2,
       img: imgQuiz2,
     },
     {
-      text: 'Smartphones and tablets will not last even two days without charging. But PocketBook is so energy efficient that you can easily forget what a charger even looks like. How long can the e-reader work on a single battery charge?',
+      text: t('qestion.qesThree.text'),
       options: [
-        'A) Up to 1 month',
-        'B) Less than 1 week',
-        'C) More than 1 year',
-        'D) 60 exciting books or 0.36 boring',
+        t('qestion.qesThree.options.A'),
+        t('qestion.qesThree.options.B'),
+        t('qestion.qesThree.options.C'),
+        t('qestion.qesThree.options.D'),
       ],
       correctAnswerIndex: 0,
       numberAnswerIndex: 3,
       img: imgQuiz3,
     },
     {
-      text: "Read in the bathtub or on the slides of the Water park? It's up to you - the waterproof PocketBook allows you to read almost anywhere. What depth can the device withstand?",
+      text: t('qestion.qesfour.text'),
       options: [
-        'A) 100 centimeters',
-        'B) 2 meters',
-        'C) 46 inches',
-        'D) 20,000 leagues',
+        t('qestion.qesfour.options.A'),
+        t('qestion.qesfour.options.B'),
+        t('qestion.qesfour.options.C'),
+        t('qestion.qesfour.options.D'),
       ],
       correctAnswerIndex: 1,
       numberAnswerIndex: 4,
@@ -67,71 +72,72 @@ const Quiz = ({ handleReset }) => {
     },
 
     {
-      text: 'Compared to other e-readers, PocketBook is a real audio expert. But one of these audio options is not available on PocketBook. Can you guess which one?',
+      text: t('qestion.qesfive.text'),
       options: [
-        'A) 6 audio formats support',
-        'B) Bluetooth connection',
-        'C) Built-in speaker',
-        'D) Karaoke book singing ',
+        t('qestion.qesfive.options.A'),
+        t('qestion.qesfive.options.B'),
+        t('qestion.qesfive.options.C'),
+        t('qestion.qesfive.options.D'),
       ],
       correctAnswerIndex: 3,
       numberAnswerIndex: 5,
       img: imgQuiz5
     },
     {
-      text: 'Listening to someone read a book aloud is not only pleasant but also very convenient. At any moment, PocketBook can turn from an e-reader into a storyteller. What is the name of this function?      ',
+      text: t('qestion.qesSix.text'),
       options: [
-        'A) ReadAloud',
-        'B) PocketBook Voice',
-        'C)  Text-to-Speech',
-        'D) Bedtime story mode',
+        t('qestion.qesSix.options.A'),
+        t('qestion.qesSix.options.B'),
+        t('qestion.qesSix.options.C'),
+        t('qestion.qesSix.options.D'),
       ],
       correctAnswerIndex: 2,
       numberAnswerIndex: 6,
       img: imgQuiz6
     },
     {
-      text: 'If you want all your books to be always at hand, you need to hire a team of powerlifters or just buy a PocketBook. How many books can the e-reader store?',
+      text: t('qestion.qesSeven.text'),
       options: [
-        'A) More than 3000', 
-      'B) More than 300', 
-      'C) More than 1000', 
-      'D) Depends on the genre'],
+        t('qestion.qesSeven.options.A'),
+        t('qestion.qesSeven.options.B'),
+        t('qestion.qesSeven.options.C'),
+        t('qestion.qesSeven.options.D'),
+    ],
       correctAnswerIndex: 0,
       numberAnswerIndex: 7,
       img: imgQuiz7
     },
     {
-      text: 'PocketBook is the world champion in the number of formats as it supports 25 formats. Name the type of files that the e-reader does not support.',
+      text: t('qestion.qesEight.text'),
       options: [
-        'A) Comics & manga formats',
-        'B) Book formats',
-        'C) Graphic formats',
-        'D) Tarot cards formats',
+        t('qestion.qesEight.options.A'),
+        t('qestion.qesEight.options.B'),
+        t('qestion.qesEight.options.C'),
+        t('qestion.qesEight.options.D'),
       ],
       correctAnswerIndex: 3,
       numberAnswerIndex: 8,
       img: imgQuiz8
     },
     {
-      text: 'What do PocketBook and Batman have in common? Stylish look and superpowers. As you might remember, PocketBook supports Adobe DRM. But what exactly an e-reader is capable of doing with Adobe DRM?',
+      text: t('qestion.qesNine.text'),
       options: [
-        'A) Get early access to new books',
-        'B) Borrow books in online libraries',
-        'C) Buy with a discount',
-        'D) Chat with authors',
+        t('qestion.qesNine.options.A'),
+        t('qestion.qesNine.options.B'),
+        t('qestion.qesNine.options.C'),
+        t('qestion.qesNine.options.D'),
       ],
       correctAnswerIndex: 1,
       numberAnswerIndex: 9,
       img: imgQuiz9
     },
     {
-      text: 'The PocketBook family is so big and diverse that even Marvel would envy it. What screens, besides black and white, are there in the arsenal of PocketBook devices?',
+      text: t('qestion.qesTen.text'),
       options: [
-        'A) OLED screens',
-        'B) LCD screens',
-        'C) Color E Ink screens',
-        'D) X-ray screens',
+        t('qestion.qesTen.options.A'),
+        t('qestion.qesTen.options.B'),
+        t('qestion.qesTen.options.C'),
+        t('qestion.qesTen.options.D'),
       ],
       correctAnswerIndex: 2,
       numberAnswerIndex: 10,

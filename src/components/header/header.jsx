@@ -1,5 +1,15 @@
 import style from './header.module.scss';
 import React from 'react';
+import PositionedMenu from './btnLang'
+
+
+
+
+import { useTranslation } from 'react-i18next';
+
+
+
+
 // import { FaFacebookF } from 'react-icons/fa';
 // import { BsTiktok } from 'react-icons/bs';
 // import { FiInstagram } from 'react-icons/fi';
@@ -7,11 +17,22 @@ import React from 'react';
 // import { BiLogoTelegram } from 'react-icons/bi';
 // import { ImYoutube } from 'react-icons/im';
 const Header = () => {
+  const {t} = useTranslation();
+
+
+
+
+
+  
   return (
     <>
-      <div className={style.conHeader}>
-        <h1 className={style.txtTitleHeader}>PocketBook</h1>
+    
 
+    <div className={style.conHeader}>
+        <h1 className={style.txtTitleHeader}>PocketBook</h1>
+        
+        <PositionedMenu/>
+        
         {/* <ul className={style.list}>
           <li className={style.itemlist}>
             <FaFacebookF fill="#fff" />
@@ -35,13 +56,17 @@ const Header = () => {
       </div>
       <div className={style.conTextTittle}>
         <h2 className={style.titleWelcome}>
-          Welcome to a special page about a special gadget – PocketBook
+          {t('titleWelcome')}
+          {/* Welcome to a special page about a special gadget – PocketBook */}
         </h2>
         <p className={style.parHeader}>
-          Watch the video to learn the most important things about PocketBook
-          e-readers and their capabilities.
+         {t('parHeader')}
         </p>
       </div>
+
+
+    
+      
     </>
   );
 };

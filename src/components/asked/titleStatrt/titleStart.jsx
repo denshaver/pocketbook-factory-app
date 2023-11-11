@@ -4,6 +4,8 @@ import Header from '../../header/header';
 
 import { Footer } from 'components/footer/Footer';
 
+import { useTranslation } from 'react-i18next';
+import '../../../i18n'
 
 
 import Quiz from 'components/QuestionsComponent/Quiz/Quiz';
@@ -14,9 +16,10 @@ import MyVideoPlayer from '../../video/myVideoPlayer'
 
 
 
-
 const TitleStart = () => {
-    
+ 
+  const { t} = useTranslation();
+
     const [showQuestions, setShowQuestions] = useState(false);
 
     const btnhandleSubmit = () => {
@@ -52,11 +55,11 @@ const handleReset = () => {
         
         <ImgReadContainer/>
         <div className={style.container}>
-          <h1 className={style.title}>Time to test your knowledge!</h1>
-          <p className={style.par}>Take the Quiz to see if you're a PocketBook expert</p>
+          <h1 className={style.title}>{t('title')}</h1>
+          <p className={style.par}>{t('par')}</p>
 
           <button type="button" className={style.btnStart} onClick={btnhandleSubmit}>
-            GET READY 
+            {t('btnStart')} 
           </button>
           </div>
           <Footer/>
