@@ -189,7 +189,7 @@ const Quiz = ({ handleReset }) => {
               question={questions[currentQuestionIndex]}
               onAnswer={handleAnswer}
               handleNextQuestion={handleNextQuestion}
-              currentQuestion={currentQuestionIndex + 1} // Увеличьте на 1, так как индекс начинается с 0
+              currentQuestion={currentQuestionIndex + 1} 
               totalQuestions={totalQuestions}
             />
           </div>
