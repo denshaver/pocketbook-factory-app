@@ -10,6 +10,13 @@ h1,h2,h3,h4,ul,li,p,div{
     padding-top: 30px;
     padding-bottom: 0;
     flex-direction: column;
+    max-width: 450px;
+}
+
+@media screen and (max-width:744px) {
+    .conFooter{
+        margin: auto;
+    }
 }
 
 
@@ -107,6 +114,7 @@ line-height: normal;
         display: flex;
         // gap: 10px;
         flex-direction: row;
+        max-width: 920px;
     }
     .tittleFooter{
         color: black;
@@ -129,7 +137,7 @@ line-height: normal;
         display: flex;
         padding-left: 0;
         padding-right: 0;
-        
+        max-width: 1440px;
         justify-content: none;
     }
    
