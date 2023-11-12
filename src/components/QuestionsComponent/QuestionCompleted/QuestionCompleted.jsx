@@ -51,7 +51,7 @@ const QuestionCompleted = ({ correctAnswers, handleReset, totalQuestions }) => {
           className={style.cricular}
           display="flex"
         >
-          <CircularProgressLabel top="7%" maxW={100} className={style.cricularContainerPar}>
+          <CircularProgressLabel top="7%" maxW={180} className={style.cricularContainerPar}>
             <div >
              <p className={style.cricularPar}>{tittle}</p>
           </div>

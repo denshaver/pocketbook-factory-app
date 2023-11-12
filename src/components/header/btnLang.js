@@ -2,7 +2,7 @@ import * as React from 'react';
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
-
+import style from '../header/header.module.scss'
 
 import useLocalStorage from 'hooks/useLocalStorage';
 
@@ -41,15 +41,22 @@ const PositionedMenu = () => {
   }
   return (
     <div>
-      <Button
+      <div className={style.btnContainer}>
+
+   <Button
         id="demo-positioned-button"
         aria-controls={open ? 'demo-positioned-menu' : undefined}
         aria-haspopup="true"
+        
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
+        
       >
-       LNG
+       <span className={style.txtbtnLng}>LNG</span> 
       </Button>
+
+      </div>
+   
       <Menu
         id="demo-positioned-menu"
         aria-labelledby="demo-positioned-button"
