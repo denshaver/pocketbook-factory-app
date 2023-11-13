@@ -5,6 +5,10 @@ ul {
 .btnContainer{
     background-color: #000;
     border-radius: 4px;
+    position: absolute;
+    right: 5%;
+    top: 12%;
+  
 }
 .txtbtnLng{
     color: #ffff;
@@ -23,10 +27,10 @@ ul {
 }
 .conHeader{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     margin: 0;
-    gap: 40px;
+    position: relative;
     margin-bottom: 40px;
 }
 
@@ -51,6 +55,9 @@ display: flex;
     .list {
         display: flex;
     }
+
+
+
 
     .conHeader{
         display: flex;
