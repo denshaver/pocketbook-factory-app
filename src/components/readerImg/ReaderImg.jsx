@@ -2,7 +2,7 @@
 import { Grid} from '@chakra-ui/react'
 import img15 from '../../img/img15.png';
 import img17 from '../../img/img17.png';
-import img1 from '../../img/img1.png';
+import img1n1 from '../../img/img1.png';
 import img6 from '../../img/img6.png';
 import img2 from '../../img/img2.png';
 import img12 from '../../img/img12.png';
@@ -28,7 +28,7 @@ export const ReaderImg = () => {
    
         <Grid  className={style.gridChakra} >
             
-            <img src={img1} alt="" className={style.imgGrid}/>
+            <img src={img1n1} alt="" className={style.imgGrid}/>
             <img src={img2} alt="" className={style.imgGrid}/>
             <img src={img3} alt="" className={style.imgGrid}/>
             <img src={img4} alt="" className={style.imgGrid}/>
