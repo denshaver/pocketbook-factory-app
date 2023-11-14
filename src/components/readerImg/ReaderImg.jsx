@@ -2,7 +2,7 @@
 import { Grid} from '@chakra-ui/react'
 import img15 from '../../img/img15.png';
 import img17 from '../../img/img17.png';
-import img1n1 from '../../img/img1.png';
+import img1n1 from '../../img/img1n1.png';
 import img6 from '../../img/img6.png';
 import img2 from '../../img/img2.png';
 import img12 from '../../img/img12.png';
