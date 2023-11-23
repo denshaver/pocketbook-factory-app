@@ -1,23 +1,30 @@
-
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import Backend from 'i18next-http-backend';
-import en from './trans/en';
-import es from './trans/es';
-import it from './trans/it';
-const resources = {
-    en : {
-        translation: en
-    },
+import en from './translations/en';
+import es from './translations/es';
+import it from './translations/it';
+import ua from './translations/ua';
+import ru from './translations/ru';
 
-    es : {
-      translation : es
-    },
-    it : {
-      translation: it
-    }
-}
+const resources = {
+  en: {
+    translation: en,
+  },
+  es: {
+    translation: es,
+  },
+  it: {
+    translation: it,
+  },
+  ua: {
+    translation: ua,
+  },
+  ru: {
+    translation: ru,
+  },
+};
 
 i18n
   .use(Backend)
@@ -25,11 +32,10 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    
     debug: true,
     fallbackLng: 'en',
     lng: JSON.parse(localStorage.getItem('language', 'en')),
-    saveMissing: true 
+    saveMissing: true,
   });
 
 export default i18n;

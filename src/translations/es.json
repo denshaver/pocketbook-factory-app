@@ -1,0 +1,127 @@
+{
+    "titleWelcome": "Te damos la bienvenida a una página especial sobre un dispositivo especial: PocketBook.",
+    "parHeader": "Mira el vídeo para aprender lo más importante sobre los lectores electrónicos PocketBook y sus funcionalidades.",
+    "title" : "¡Hora de poner a prueba tus conocimientos!",
+    "par": "Haz el cuestionario para ver si eres un experto en PocketBook.",
+    "btnStart": "Empezar",
+    
+
+    "qestion" : {
+        "qesOne" : {
+            "text": "Para leer algo en un teléfono inteligente o tableta bajo el sol, necesitarás paciencia… y tal vez un eclipse solar. Pero PocketBook te garantiza una lectura cómoda incluso bajo el sol más brillante. ¿Cuál es el secreto?",
+            "options": {
+
+              "A":  "A) Pantalla con E Ink sin destellos",
+                "B": "B) Cubierta protectora especial",
+               "C": "C) Función texto a voz",
+               "D": "D) Parasol profesional"
+            }
+                  
+        },
+        "qesTwo" : {
+            "text": "Leer en un PocketBook es como un spa para tus ojos. ¿Por qué se considera que PocketBook es uno de los dispositivos más cómodos para la vista del mundo?",
+            "options": {
+                "A":  "A) Altavoz integrado",
+                "B": "B) Adobe DRM support",
+               "C": "C) Pantalla con E Ink que imita el papel",
+               "D": "D) La pantalla emite vapores curativos"
+            }
+        },
+        "qesThree" : {
+            "text": "Los teléfonos inteligentes y las tabletas no duran ni dos días sin cargarlos. Pero PocketBook tiene una eficiencia energética tan buena que puedes olvidar hasta cómo es el cargador. ¿Cuánto tiempo puede funcionar el lector electrónico con una única carga de la batería?",
+            "options": {
+                "A":  "A) Hasta 1 mes",
+                "B": "B) Menos de 1 semana",
+               "C": "C) Más de 1 año",
+               "D": "D) 60 libros apasionantes o 0,36 aburridos"
+            }
+        },
+        "qesfour" : {
+            "text": "¿Quieres leer en la bañera o en el tobogán de un parque acuático? Tú mismo. La resistencia al agua del PocketBook te permite leer prácticamente en cualquier lugar. ¿Qué profundidad puede soportar el dispositivo?",
+            "options": {
+                "A":  "A) 100 centímetros",
+                "B": "B) 2 metros",
+               "C": "C) 46 pulgadas",
+               "D": "D) 20 000 leguas"
+            }
+        },
+        "qesfive" : {
+            "text": "En comparación con otros lectores electrónicos, PocketBook es un auténtico experto en audio. Pero una de estas opciones no está disponible en PocketBook. ¿Podrás adivinar cuál?",
+            "options": {
+                "A":  "A) Compatible con 6 formatos de audio",
+                "B": "B) Conexión Bluetooth",
+               "C": "C) Altavoz integrado",
+               "D": "D) Cantar libros en karaoke"
+            }
+        },
+        "qesSix" : {
+            "text": "Escuchar a alguien leer un libro en voz alta no solo es reconfortante, sino también muy práctico. En cualquier momento, PocketBook puede transformarse de lector electrónico a cuentacuentos. ¿Cómo se llama esta función?",
+            "options": {
+                "A":  "A) ReadAloud",
+                "B": "B) PocketBook Voz",
+               "C": "C) Texto a voz",
+               "D": "D) Modo cuento de buenas noches"
+            }
+        },
+        "qesSeven" : {
+            "text": "Si quieres tener todos tus libros siempre a mano, necesitarás contratar un equipo de levantadores de pesas, o sencillamente comprar un PocketBook. ¿Cuántos libros puede almacenar el lector electrónico?",
+            "options": {
+                "A":  "A) Más de 3000",
+                "B": "B) Más de 300",
+               "C": "C) Más de 1000",
+               "D": "D) Depende del género"
+            }
+        },
+        "qesEight" : {
+            "text": "PocketBook es el campeón del mundo en número de formatos, compatible con 25 de ellos. Nombra el tipo de archivo que no es compatible con el dispositivo.",
+            "options": {
+                "A":  "A) Formatos de cómic y manga",
+                "B": "B) Formatos de libros",
+               "C": "C) Formatos gráficos",
+               "D": "D) Formatos de cartas del tarot"
+            }
+        },
+        "qesNine" : {
+            "text": "¿Qué tienen en común PocketBook y Batman? El estilo y los superpoderes. Como recordarás, PocketBook es compatible con Adobe DRM. ¿Pero qué puede hacer un lector electrónico con Adobe DRM?",
+            "options": {
+                "A":  "A) Obtener acceso anticipado a nuevos libros",
+                "B": "B) Tomar libros prestados de las bibliotecas en línea",
+               "C": "C) Comprar con descuento",
+               "D": "D) Charlar con los autores"
+            }
+        },
+        "qesTen" : {
+            "text": "La familia de PocketBook es tan grande y variada que hasta Marvel le tendría envidia. ¿Qué pantallas, además de en blanco y negro, existen en el arsenal de dispositivos PocketBook?",
+            "options": {
+                "A":  "A) Pantallas OLED",
+                "B": "B) Pantallas LCD",
+               "C": "C) Pantallas en color con E Ink",
+               "D": "D) Pantallas con rayos X"
+            }
+        }
+
+    },
+
+    "questionCompleted":  {
+        "answear" : {
+            "better": {
+                "message": "Puede que necesites más entrenamiento con los Ewok antes de convertirte en un Jedi de PocketBook. ¡Sigue aprendiendo!",
+                "tittle": "Intenta mejorar",
+                "par": "Ewok:"
+            },
+            "good": {
+                "message": " Lo has hecho bien, joven Padawan, pero sigues teniendo mucho que aprender sobre la Fuerza de PocketBook.",
+                "tittle": "Bien",
+                "par": "Padawan:"
+            },
+            "excellent": {
+                "message": "Eres un auténtico Maestro Jedi de este cuestionario, has mostrado un conocimiento excepcional sobre el universo PocketBook.",
+                "tittle": "Excelente",
+                "par": "Maestro Jedi:"
+            },
+            "btnAgain": "PLAY AGAIN"
+            
+        }
+    }
+    
+}
