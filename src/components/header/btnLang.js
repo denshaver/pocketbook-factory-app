@@ -18,6 +18,14 @@ const PositionedMenu = () => {
     setAnchorEl(null);
   };
 
+  const currentLanguageText = () => {
+    if (language === 'en') return 'ENG';
+    if (language === 'es') return 'ESP';
+    if (language === 'it') return 'ITL';
+    if (language === 'ua') return 'UKR';
+    if (language === 'ru') return 'RUS';
+  };
+
   const [language, setLanguage] = useLocalStorage('language', 'en');
 
   const handleLanguageChange = selectedLanguage => {
@@ -45,6 +53,7 @@ const PositionedMenu = () => {
       setAnchorEl(null);
     }
   };
+
   return (
     <div>
       <div className={style.btnContainer}>
@@ -55,7 +64,7 @@ const PositionedMenu = () => {
           aria-expanded={open ? 'true' : undefined}
           onClick={handleClick}
         >
-          <span className={style.txtbtnLng}>LNG</span>
+          <span className={style.txtbtnLng}>{currentLanguageText()}</span>
         </Button>
       </div>
 
