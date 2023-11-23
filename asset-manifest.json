@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pocketbook-factory-app/static/css/main.3a25e922.css",
+    "main.css": "/pocketbook-factory-app/static/css/main.40edc6df.css",
     "main.js": "/pocketbook-factory-app/static/js/main.b28e92b3.js",
     "static/media/animation-en.mp4": "/pocketbook-factory-app/static/media/animation-en.b4a11c336f9f3d3aa33e.mp4",
     "static/media/animation-it.mp4": "/pocketbook-factory-app/static/media/animation-it.ad6d727bf67805649131.mp4",
@@ -35,11 +35,11 @@
     "static/media/img11.png": "/pocketbook-factory-app/static/media/img11.2d38fe7f62320ccff55d.png",
     "index.html": "/pocketbook-factory-app/index.html",
     "static/media/getFetch.cjs": "/pocketbook-factory-app/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.3a25e922.css.map": "/pocketbook-factory-app/static/css/main.3a25e922.css.map",
+    "main.40edc6df.css.map": "/pocketbook-factory-app/static/css/main.40edc6df.css.map",
     "main.b28e92b3.js.map": "/pocketbook-factory-app/static/js/main.b28e92b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a25e922.css",
+    "static/css/main.40edc6df.css",
     "static/js/main.b28e92b3.js"
   ]
 }
