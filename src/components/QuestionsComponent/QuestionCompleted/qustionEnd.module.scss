@@ -1,106 +1,203 @@
-.containerEnd{
-    
-    display: flex;
-    margin: 40px 40px;
-    margin: auto;
-    min-width: 320px;
-    border: 1px solid rgb(0, 0, 0);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 11px;
-    padding-right: 11px;
-    
-    align-items: center;
-    background: #FAF9FA;
-    
-    justify-content: center;
-    
+.containerEnd {
+  display: flex;
+  margin: 40px 40px;
+  margin: auto;
+  min-width: 320px;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 11px;
+  padding-right: 11px;
+
+  align-items: center;
+  background: #faf9fa;
+
+  justify-content: center;
 }
 
-.quesComplatedbackground{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    filter: blur(1px);
-    z-index: -1;
-
+.quesComplatedbackground {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: blur(1px);
+  z-index: -1;
 }
 
 @media screen and (max-width: 1356px) {
-    .containerEnd{
-        
-       
-        flex-direction: column;
-        
-    }
-
-    
+  .containerEnd {
+    flex-direction: column;
+  }
 }
 
+.btnAgain {
+  margin: auto;
+  border-radius: 10px;
+  border: 1px solid #2a292a;
+  margin-top: 38px;
+  background: #faf9fa;
 
+  color: #000;
+  padding: 15px 33px;
+  color: #000;
+  min-width: 160px;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  z-index: 1;
+  position: relative;
+  cursor: pointer;
+}
 
-.btnAgain{
+.btnAgain:hover {
+  background-color: #dddadd;
+  cursor: pointer;
+}
+
+.messageTxt {
+  color: #000;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+
+.tittleMessage {
+  color: #000;
+
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.cricular {
+  margin-bottom: 40px;
+}
+
+.totalAnswer {
+  color: #2a292a;
+
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.conTextEnd {
+  width: 297px;
+}
+
+.conTxtAndBtn {
+  display: flex;
+  flex-direction: column;
+}
+.cricularPar {
+  color: #faf9fa;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 14px 1px;
+  border-radius: 6px;
+  background-color: #1a2b4f;
+}
+
+.cricularContainerPar {
+}
+
+@media screen and (min-width: 1101px) {
+  .containerEnd {
+    display: flex;
+    margin: 40px 40px;
     margin: auto;
+    max-width: 1200px;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    border: 1px solid #2A292A;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-top: 150px;
+    background: #faf9fa;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 110px;
+  }
+
+  .btnAgain {
+    margin: 0;
+    border-radius: 10px;
+    border: 1px solid #2a292a;
     margin-top: 38px;
-    background: #FAF9FA;
+    background: #faf9fa;
 
     color: #000;
     padding: 15px 33px;
     color: #000;
-    min-width: 160px;
+
+    width: fit-content;
+    color: #000;
+
     text-align: center;
+    /* Button */
     font-family: Noto Sans;
-    font-size: 14px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     z-index: 1;
     position: relative;
     cursor: pointer;
-}  
+  }
 
-.btnAgain:hover {
-    background-color: #dddadd;
-    cursor: pointer;
-}
-
-.messageTxt{
+  .messageTxt {
     color: #000;
-    font-family: Noto Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: center;
-    
-}
-
-
-
-.tittleMessage{
-    color: #000;
-
-    text-align: center;
     font-family: Noto Sans;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-}
-.cricular{
+    text-align: left;
+  }
+
+  .tittleMessage {
+    color: #000;
+
+    font-family: Noto Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: justify;
+  }
+  .cricular {
     margin-bottom: 40px;
-}
-  
-.totalAnswer{
-    color: #2A292A;
+    top: 43%;
+  }
+
+  @media screen and (min-width: 1200px) {
+    .cricular {
+      margin-bottom: 0px;
+      top: 45%;
+    }
+  }
+
+  .totalAnswer {
+    color: #2a292a;
 
     text-align: center;
     font-family: Noto Sans;
@@ -108,167 +205,43 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
-.conTextEnd{
-    width: 297px;
-}
+  }
+  .conTextEnd {
+    width: 442px;
+  }
 
-.conTxtAndBtn{
+  .conTxtAndBtn {
     display: flex;
     flex-direction: column;
-}
-.cricularPar{
-   
-    color: #FAF9FA;
-    text-align: center;
-    font-family: Noto Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    padding: 14px 1px;
-    border-radius: 6px;
-    background-color: #1A2B4F;
-   
-}
+  }
 
-.cricularContainerPar{
-    
-    
-
-}
-
-
-
-@media screen and (min-width: 1101px) {
-    .containerEnd{
-    
-        display: flex;
-        margin: 40px 40px;
-        margin: auto;
-        max-width: 1200px;
-        border: 1px solid rgb(0, 0, 0);
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-        border-radius: 10px;
-        padding-top: 120px;
-        padding-bottom: 120px; 
-        margin-top: 150px;
-        background: #FAF9FA;
-        justify-content: space-evenly;
-        align-items: center;
-        margin-bottom: 110px;
-    
+  @media screen and (min-width: 1301px) {
+    .containerEnd {
+      margin-bottom: 200px;
     }
-    
-    .btnAgain{
-        margin: 0;
-        border-radius: 10px;
-        border: 1px solid #2A292A;
-        margin-top: 38px;
-        background: #FAF9FA;
-    
-        color: #000;
-        padding: 15px 33px;
-        color: #000;
-    
-        width: 160px;
-        color: #000;
-
-        text-align: center;
-        /* Button */
-        font-family: Noto Sans;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        z-index: 1;
-        position: relative;
-        cursor: pointer;
-    }  
-    
-    .messageTxt{
-        color: #000;
-    font-family: Noto Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: justify;
-    
-    }
-    
-    .tittleMessage{
-        color: #000;
-
-        font-family: Noto Sans;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        text-align: justify;
-    }
-    .cricular{
-        margin-bottom: 40px;
-        top: 43%;
-    }
-
-    @media screen and (min-width: 1200px) {
-        .cricular{
-            margin-bottom: 0px;
-            top: 45%;
-        }
-        
-    }
-      
-    .totalAnswer{
-        color: #2A292A;
-    
-        text-align: center;
-        font-family: Noto Sans;
-        font-size: 34px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-    .conTextEnd{
-        width: 442px;
-    }
-    
-    .conTxtAndBtn{
-        display: flex;
-        flex-direction: column;
-    }
-
-    @media screen and (min-width: 1301px) {
-        .containerEnd{
-            margin-bottom: 200px;
-        }
-    }
-
+  }
 }
 
 @media screen and (min-width: 744px) and (max-width: 1358px) {
-    .conTextEnd{
-        width: 442px;
-        
-    }
-    .containerEnd{
-        
-        margin-bottom: 100px;
-        width: 600px;
-    }
+  .conTextEnd {
+    width: 442px;
+  }
+  .containerEnd {
+    margin-bottom: 100px;
+    width: 600px;
+  }
 
-    .messageTxt{
-        color: #000;
+  .messageTxt {
+    color: #000;
     font-family: Noto Sans;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     text-align: center;
-    }
-    .tittleMessage{
-        color: #000;
+  }
+  .tittleMessage {
+    color: #000;
 
     text-align: center;
     font-family: Noto Sans;
@@ -276,5 +249,5 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    }
+  }
 }

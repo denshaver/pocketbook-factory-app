@@ -1,213 +1,185 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap');
 
-.conQuesText{
-    border-bottom: 1px solid #000;
- 
-   
+.conQuesText {
+  border-bottom: 1px solid #000;
 }
-.quesText{
-    
+.quesText {
+  color: #2a292a;
 
-    color: #2A292A;
-
-    font-family: Noto Sans;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-
+  font-family: Noto Sans;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
-.tittleTextQues{
-    
+.tittleTextQues {
 }
-.btnitem{
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    flex-wrap: wrap;
-    justify-content: center;
-    
+.btnitem {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .btnQuest {
-    border: 1px solid 2A292A;
-    box-shadow: 0 0 14px rgba(0, 0, 0, 0.14);
-    padding: 13px 22px;
-    outline: none;
-    border-radius: 10px;
-    color: #000;
-    width: 230px;
-    text-align: center;
-    background: #FAF9FA;
-    font-family: Noto Sans;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    cursor: pointer;
-    transition: border-color 0.3s, background-color 0.3s;
-    width: 280px;
+  border: 1px solid 2A292A;
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.14);
+  padding: 13px 22px;
+  height: 62.5px;
+  outline: none;
+  border-radius: 10px;
+  color: #000;
+  width: 230px;
+  text-align: center;
+  background: #faf9fa;
+  font-family: Noto Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+  transition: border-color 0.3s, background-color 0.3s;
+  width: 280px;
 }
-
-
 
 .listBtnItem {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-
-
-
-
 .correctAnswer {
-    border: 2px solid green;
-    box-shadow: 0px 0px 18px 0px rgba(0, 128, 0, 0.5);
+  border: 2px solid green;
+  box-shadow: 0px 0px 18px 0px rgba(0, 128, 0, 0.5);
 }
 
 .wrongAnswer {
-    border: 2px solid red;
-    box-shadow: 0px 0px 18px 0px rgba(255, 0, 0, 0.5);
+  border: 2px solid red;
+  box-shadow: 0px 0px 18px 0px rgba(255, 0, 0, 0.5);
 }
 
 .defaultButton {
-    
-    border: 1px solid #2A292A;
+  border: 1px solid #2a292a;
 }
 
 @media screen and (max-width: 768px) {
-    .hiddenButton {
-        display: none;
-    }
+  .hiddenButton {
+    display: none;
+  }
 }
 
-.nextQuestionBtn{
-    border-radius: 6px;
-    border: 1px solid #425F9C;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #1A2B4F;
-    border: none;
-    color: #ffff;
-    padding: 15px 35px;
-    width: 280px;
-    
-    cursor: pointer;
-    
+.nextQuestionBtn {
+  border-radius: 6px;
+  border: 1px solid #425f9c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1a2b4f;
+  border: none;
+  color: #ffff;
+  padding: 15px 35px;
+  width: 280px;
 
+  cursor: pointer;
 }
-.containerQuestion{
-    display: flex;
-    justify-content: space-between;
+.containerQuestion {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.conQuestionImg {
+  display: flex;
+
+  margin-top: 30px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .conQuestionImg {
+    margin-top: 20px;
     flex-direction: column;
-    
+  }
 }
 
-.conQuestionImg{
-    display: flex;
-    
-   
-    margin-top: 30px;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    
+.conItem {
+  display: flex;
+  flex-direction: column;
 }
 
-@media screen and (max-width:1200px) {
-    .conQuestionImg{
-        margin-top: 20px;
-        flex-direction: column;
-    }
-
+.nextbtn {
+  display: flex;
+  justify-content: center;
 }
 
-.conItem{
-    display: flex;
-    flex-direction: column;
-
-}
-
-.nextbtn{
-    display: flex;
-    justify-content: center;
-    
-   
-}
-
-
-.conQuesTextAndNumb{
-
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 20px;
-    margin-right: 20px;
-    
+.conQuesTextAndNumb {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 @media screen and (max-width: 744px) {
-    .conQuesTextAndNumb{
-        flex-direction: column-reverse;
-    }
+  .conQuesTextAndNumb {
+    flex-direction: column-reverse;
+  }
 }
 
-.currentQuestion{
-    color: #2A292A;
+.currentQuestion {
+  color: #2a292a;
 
-    margin-bottom: 10px;
-    font-family: Noto Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+  margin-bottom: 10px;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
-
-.imgQues{
-    width: 280px;
-    height: 260px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    background-size: contain;
+.imgQues {
+  width: 280px;
+  height: 260px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-size: contain;
 }
-
 
 @media screen and (min-width: 1201px) {
-    .conQuestionImg{
-        display: flex;
-        margin-top: 30px;
-        gap: 30px;
-        justify-content: flex-start;
-        align-items: flex-start;
-        margin-left: 30px;
-        max-width: 1200px;
-    }
-    .imgQues{
-        width: 393px;
-        height: 366px;
-        margin-bottom: 20px;
-    }
-    .btnitem{
-        justify-content: flex-start;
-    }
-
-    .listBtnItem:nth-child(-n+2){
+  .conQuestionImg {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 30px;
+    max-width: 1200px;
+  }
+  .imgQues {
+    width: 393px;
+    height: 366px;
     margin-bottom: 20px;
+  }
+  .btnitem {
+    justify-content: flex-start;
+  }
 
-}
-    .listBtnItem:nth-child(1),
-    .listBtnItem:nth-child(3) {
+  .listBtnItem:nth-child(-n + 2) {
+    margin-bottom: 20px;
+  }
+  .listBtnItem:nth-child(1),
+  .listBtnItem:nth-child(3) {
     margin-right: 25px;
-}
-.conQuesTextAndNumb{
+  }
+  .conQuesTextAndNumb {
     align-items: center;
     margin-bottom: 30px;
-}
-.currentQuestion{
-    color: #2A292A;
+  }
+  .currentQuestion {
+    color: #2a292a;
 
     text-align: center;
     font-family: Noto Sans;
@@ -215,93 +187,77 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
+  }
 
-.nextbtn{
+  .nextbtn {
     display: flex;
     justify-content: center;
-    margin-top: 170px;
-   
-}
-.conItem{
+  }
+  .conItem {
     display: flex;
     align-items: flex-end;
     max-width: 718px;
-}
-
-.quesText{
-    color: #2A292A;
-
-font-family: Noto Sans;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-
-}
-.tittleTextQues{
-    width: 1000px;
-}
-
-
-
-
-.btnQuest:hover {
-    border: 3px solid #2A292A;
-
-
-    
-}
-
-.btnQuest{
-    min-width: 344px;
-
-
-}
-.nextQuestionBtn{
-    width: 140px;
-    color: #FAF9FA;
-
-text-align: center;
-font-family: Noto Sans;
-font-size: 14px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-}
-
-}
-
-
-@media screen and (min-width: 743px)and (max-width: 1150px) {
-    .btnitem{
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .nextQuestionBtn{
-       width: 140px;
-    }
-    .tittleTextQues{
-        width: 500px;
-    }
-    .quesText{
-        color: #2A292A;
-
-        font-family: Noto Sans;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-    }
-
-  .currentQuestion{
-    display: flex;
-    align-items: center;
-
+    justify-content: space-between;
+    height: 366px;
   }
 
-   
+  .quesText {
+    color: #2a292a;
 
+    font-family: Noto Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .tittleTextQues {
+    width: 1000px;
+  }
 
+  .btnQuest:hover {
+    border: 2px solid #2a292a;
+  }
+
+  .btnQuest {
+    min-width: 344px;
+  }
+  .nextQuestionBtn {
+    width: 140px;
+    color: #faf9fa;
+
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
+
+@media screen and (min-width: 743px) and (max-width: 1150px) {
+  .btnitem {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nextQuestionBtn {
+    width: 140px;
+  }
+  .tittleTextQues {
+    width: 500px;
+  }
+  .quesText {
+    color: #2a292a;
+
+    font-family: Noto Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .currentQuestion {
+    display: flex;
+    align-items: center;
+  }
 }
