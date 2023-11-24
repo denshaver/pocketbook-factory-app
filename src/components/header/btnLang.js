@@ -24,6 +24,7 @@ const PositionedMenu = () => {
     if (language === 'it') return 'ITL';
     if (language === 'ua') return 'UKR';
     if (language === 'ru') return 'RUS';
+    return 'ENG';
   };
 
   const [language, setLanguage] = useLocalStorage('language', 'en');
