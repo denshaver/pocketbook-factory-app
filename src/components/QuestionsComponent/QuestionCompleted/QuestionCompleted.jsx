@@ -17,21 +17,21 @@ const QuestionCompleted = ({ correctAnswers, handleReset, totalQuestions }) => {
   switch (true) {
     case correctAnswers >= 0 && correctAnswers <= 4:
       message = t('questionCompleted.answear.better.message');
-      value = 10;
+      value = (correctAnswers / totalQuestions) * 100;
       tittle = t('questionCompleted.answear.better.tittle');
       par = t('questionCompleted.answear.better.par');
 
       break;
     case correctAnswers >= 5 && correctAnswers <= 7:
       message = t('questionCompleted.answear.good.message');
-      value = 50;
+      value = (correctAnswers / totalQuestions) * 100;
       tittle = t('questionCompleted.answear.good.tittle');
       par = t('questionCompleted.answear.good.par');
 
       break;
     case correctAnswers >= 8 && correctAnswers <= 10:
       message = t('questionCompleted.answear.excellent.message');
-      value = 100;
+      value = (correctAnswers / totalQuestions) * 100;
       tittle = t('questionCompleted.answear.excellent.tittle');
       par = t('questionCompleted.answear.excellent.par');
 
