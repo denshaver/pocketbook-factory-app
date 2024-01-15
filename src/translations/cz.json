@@ -1,0 +1,112 @@
+{
+  "titleWelcome": "Vítejte na speciální stránce o speciálním zařízení – PocketBook",
+  "parHeader": "Podívejte se na video, ve kterém se seznámíte s nejdůležitějšími věcmi o čtečkách elektronických knih PocketBook a jejich funkcích",
+  "title": "Je čas otestovat vaše znalosti!",
+  "par": "Udělejte si kvíz a zjistěte, zda jste odborníkem na čtečky PocketBook",
+  "btnStart": "Začít",
+
+  "qestion": {
+    "qesOne": {
+      "text": "Abyste si mohli něco přečíst na chytrém telefonu nebo tabletu na jasném slunci, budete potřebovat trpělivost a možná… zatmění Slunce. PocketBook ale zaručuje pohodlné čtení i na jasném světle. V čem spočívá jeho tajemství?",
+      "options": {
+        "A": "A) Displej E Ink bez odlesků",
+        "B": "B) Speciální ochranný kryt",
+        "C": "C) Funkce Text-to-Speech",
+        "D": "D) Profesionální sluneční krém"
+      }
+    },
+    "qesTwo": {
+      "text": "Čtení na čtečce PocketBook je jako lázně pro vaše oči. Proč jsou čtečky PocketBook považovány za jedny z nejšetrnějších zařízení pro oči na světě?",
+      "options": {
+        "A": "A) Vestavěný reproduktor",
+        "B": "B) Podpora technologie Adobe DRM",
+        "C": "C) Displej E Ink podobný papíru",
+        "D": "D) Displej vyzařuje léčivě výpary"
+      }
+    },
+    "qesThree": {
+      "text": "Chytré telefony a tablety nevydrží bez nabíjení ani dva dny. PocketBook je ale tak energeticky účinný, že můžete klidně zapomenout, jak vůbec nabíječka vypadá. Jak dlouho dokáže čtečka elektronických knih fungovat na jedno nabití baterie?",
+      "options": {
+        "A": "A) Až 1 měsíc",
+        "B": "B) Méně než 1 týden",
+        "C": "C) Více než 1 rok",
+        "D": "D) 60 napínavých nebo 0,36 nudných knih"
+      }
+    },
+    "qesfour": {
+      "text": "Čtete si ve vaně nebo na skluzavkách v akvaparku? Je to na vás – s vodotěsnou čtečkou PocketBook si můžete číst téměř kdekoli. Jakou hloubku zařízení vydrží?",
+      "options": {
+        "A": "A) 100 centimetrů",
+        "B": "B) 2 metry",
+        "C": "C) 46 palců",
+        "D": "D) 20 000 mil"
+      }
+    },
+    "qesfive": {
+      "text": "Ve srovnání s jinými čtečkami je PocketBook skutečným odborníkem na zvuk. Ale jedna z těchto možností zvuku není ve čtečkách PocketBook k dispozici. Uhádnete která?",
+      "options": {
+        "A": "A) Podpora 6 formátů zvuku",
+        "B": "B) Bluetooth připojení",
+        "C": "C) Vestavěný reproduktor",
+        "D": "D) Karaoke zpívání knih"
+      }
+    },
+    "qesSix": {
+      "text": "Poslouchání, jak někdo čten knihu nahlas, není jen uklidňující, ale také velmi pohodlné. PocketBook dokáže během chvilky proměnit e-čtečku ve vypravěče příběhů. Jak se této funkci říká?",
+      "options": {
+        "A": "A) ReadAloud",
+        "B": "B) PocketBook Voice",
+        "C": "C) Text-to-Speech",
+        "D": "D) Režim pohádek na dobrou noc"
+      }
+    },
+    "qesSeven": {
+      "text": "Pokud byste chtěli mít všechny své knihy vždy po ruce, potřebovali byste si najmout tým vzpěračů – nebo si jednoduše koupit PocketBook. Kolik knih se vejde do čtečky elektronických knih?",
+      "options": {
+        "A": "A) Více než 3000",
+        "B": "B) Více než 300",
+        "C": "C) Více než 1000",
+        "D": "D) Záleží na žánru"
+      }
+    },
+    "qesEight": {
+      "text": "PocketBook je mistrem světa v počtu formátů – podporuje jich 25. Uveďte typ souborů, které e-čtečka nepodporuje.",
+      "options": {
+        "A": "A) Formáty komiksů a mangy",
+        "B": "B) Formáty knih",
+        "C": "C) Grafické formáty",
+        "D": "D) Formáty tarotových karet"
+      }
+    },
+    "qesNine": {
+      "text": "Řada čteček PocketBook je tak velká a různorodá, že by jí mohl závidět i Marvel. Jaké displeje, kromě černobílých, nabízí řada zařízení PocketBook?",
+      "options": {
+        "A": "A) Displeje OLED",
+        "B": "B) Displeje LCD",
+        "C": "C) Barevné displeje E Ink",
+        "D": "D) Rentgenové displeje"
+      }
+    }
+  },
+
+  "questionCompleted": {
+    "answear": {
+      "better": {
+        "message": "Potřebujete další výcvik s Ewoky, abyste se mohli stát Jediem PocketBook. Pokračujte v učení!",
+        "tittle": "Zkuste to lépe",
+        "par": "Ewok:"
+      },
+      "good": {
+        "message": "Vedli jste si dobře, mladý Padawane, ale pořád se toho o síle PocketBook máte hodně co učit.",
+        "tittle": "Dobrý",
+        "par": "Padawan:"
+      },
+      "excellent": {
+        "message": "Jste skutečným mistrem Jedi tohoto kvízu a máte mimořádné znalosti univerza PocketBook.",
+        "tittle": "Vynikající",
+        "par": "Mistr Jedi:"
+      },
+      "btnAgain": "Hrát znovu"
+    }
+  }
+}

@@ -7,6 +7,9 @@ import es from './translations/es';
 import it from './translations/it';
 import ua from './translations/ua';
 import ru from './translations/ru';
+import pl from './translations/pl';
+import de from './translations/de';
+import cz from './translations/cz';
 
 const resources = {
   en: {
@@ -23,6 +26,15 @@ const resources = {
   },
   ru: {
     translation: ru,
+  },
+  pl: {
+    translation: pl,
+  },
+  de: {
+    translation: de,
+  },
+  cz: {
+    translation: cz,
   },
 };
 

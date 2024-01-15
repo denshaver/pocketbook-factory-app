@@ -3,14 +3,17 @@ import * as React from 'react';
 import { CircularProgress, CircularProgressLabel } from '@chakra-ui/react';
 import { ImgReadContainer } from 'components/readerImg/imgReadContainer/ImgReadContainer';
 import { Footer } from 'components/footer/Footer';
-import '../../../i18n'
 import { useTranslation } from 'react-i18next';
+import '../../../i18n';
+
 const QuestionCompleted = ({ correctAnswers, handleReset, totalQuestions }) => {
   let message = '';
   let value = 0;
   let tittle = '';
   let par = '';
-  const {t} = useTranslation()
+
+  const { t } = useTranslation();
+
   switch (true) {
     case correctAnswers >= 0 && correctAnswers <= 4:
       message = t('questionCompleted.answear.better.message');
@@ -24,6 +27,7 @@ const QuestionCompleted = ({ correctAnswers, handleReset, totalQuestions }) => {
       value = 50;
       tittle = t('questionCompleted.answear.good.tittle');
       par = t('questionCompleted.answear.good.par');
+
       break;
     case correctAnswers >= 8 && correctAnswers <= 10:
       message = t('questionCompleted.answear.excellent.message');
@@ -38,10 +42,10 @@ const QuestionCompleted = ({ correctAnswers, handleReset, totalQuestions }) => {
 
   return (
     <>
-     <div className={style.quesComplatedbackground}>
+      <div className={style.quesComplatedbackground}>
         <ImgReadContainer />
       </div>
-      
+
       <div className={style.containerEnd}>
         <CircularProgress
           value={value}
@@ -51,14 +55,21 @@ const QuestionCompleted = ({ correctAnswers, handleReset, totalQuestions }) => {
           className={style.cricular}
           display="flex"
         >
-          <CircularProgressLabel top="7%" maxW={180} className={style.cricularContainerPar}>
-            <div >
-             <p className={style.cricularPar}>{tittle}</p>
-          </div>
+          <CircularProgressLabel
+            top="7%"
+            maxW={180}
+            className={style.cricularContainerPar}
+          >
+            <div>
+              <p className={style.cricularPar}>{tittle}</p>
+            </div>
           </CircularProgressLabel>
-          
-         
-          <CircularProgressLabel width={73} top="43%" className={style.cricular}>
+
+          <CircularProgressLabel
+            width={73}
+            top="43%"
+            className={style.cricular}
+          >
             <span className={style.totalAnswer}>{correctAnswers}/</span>
             <span className={style.totalAnswer}>{totalQuestions}</span>
           </CircularProgressLabel>
@@ -80,9 +91,7 @@ const QuestionCompleted = ({ correctAnswers, handleReset, totalQuestions }) => {
         </div>
       </div>
 
-      
-    <Footer/>
-      
+      <Footer />
     </>
   );
 };

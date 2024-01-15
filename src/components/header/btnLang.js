@@ -21,9 +21,12 @@ const PositionedMenu = () => {
   const currentLanguageText = () => {
     if (language === 'en') return 'ENG';
     if (language === 'es') return 'ESP';
-    if (language === 'it') return 'ITL';
+    if (language === 'it') return 'ITA';
     if (language === 'ua') return 'UKR';
     if (language === 'ru') return 'RUS';
+    if (language === 'pl') return 'POL';
+    if (language === 'de') return 'DEU';
+    if (language === 'cz') return 'CZE';
     return 'ENG';
   };
 
@@ -49,6 +52,18 @@ const PositionedMenu = () => {
     } else if (selectedLanguage === 'ru' && language !== 'ru') {
       i18n.changeLanguage('ru');
       setLanguage('ru');
+      setAnchorEl(null);
+    } else if (selectedLanguage === 'pl' && language !== 'pl') {
+      i18n.changeLanguage('pl');
+      setLanguage('pl');
+      setAnchorEl(null);
+    } else if (selectedLanguage === 'de' && language !== 'de') {
+      i18n.changeLanguage('de');
+      setLanguage('de');
+      setAnchorEl(null);
+    } else if (selectedLanguage === 'cz' && language !== 'cz') {
+      i18n.changeLanguage('cz');
+      setLanguage('cz');
       setAnchorEl(null);
     } else {
       setAnchorEl(null);
@@ -85,8 +100,11 @@ const PositionedMenu = () => {
         }}
       >
         <MenuItem onClick={() => handleLanguageChange('en')}>EN</MenuItem>
+        <MenuItem onClick={() => handleLanguageChange('de')}>DE</MenuItem>
         <MenuItem onClick={() => handleLanguageChange('es')}>ES</MenuItem>
         <MenuItem onClick={() => handleLanguageChange('it')}>IT</MenuItem>
+        <MenuItem onClick={() => handleLanguageChange('pl')}>PL</MenuItem>
+        <MenuItem onClick={() => handleLanguageChange('cz')}>CZ</MenuItem>
         <MenuItem onClick={() => handleLanguageChange('ua')}>UA</MenuItem>
         <MenuItem onClick={() => handleLanguageChange('ru')}>RU</MenuItem>
       </Menu>

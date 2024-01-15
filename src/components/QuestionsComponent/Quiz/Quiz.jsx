@@ -5,7 +5,7 @@ import QuestionCompleted from '../QuestionCompleted/QuestionCompleted';
 import style from './Quizstyle.module.scss';
 
 import { useTranslation } from 'react-i18next';
-import '../../../i18n'
+import i18n from 'i18n';
 
 import imgQuiz1 from '../../../img/imgQiuz/imgQuiz1.jpg';
 import imgQuiz2 from '../../../img/imgQiuz/imgQuiz2.jpg';
@@ -19,8 +19,8 @@ import imgQuiz9 from '../../../img/imgQiuz/imgQuiz9.jpg';
 import imgQuiz10 from '../../../img/imgQiuz/imgQuiz10.jpg';
 
 const Quiz = ({ handleReset }) => {
-  const {t} = useTranslation();
-  
+  const { t } = useTranslation();
+
   const questions = [
     {
       text: t('qestion.qesOne.text'),
@@ -68,7 +68,7 @@ const Quiz = ({ handleReset }) => {
       ],
       correctAnswerIndex: 1,
       numberAnswerIndex: 4,
-      img: imgQuiz4
+      img: imgQuiz4,
     },
 
     {
@@ -81,7 +81,7 @@ const Quiz = ({ handleReset }) => {
       ],
       correctAnswerIndex: 3,
       numberAnswerIndex: 5,
-      img: imgQuiz5
+      img: imgQuiz5,
     },
     {
       text: t('qestion.qesSix.text'),
@@ -93,7 +93,7 @@ const Quiz = ({ handleReset }) => {
       ],
       correctAnswerIndex: 2,
       numberAnswerIndex: 6,
-      img: imgQuiz6
+      img: imgQuiz6,
     },
     {
       text: t('qestion.qesSeven.text'),
@@ -102,10 +102,10 @@ const Quiz = ({ handleReset }) => {
         t('qestion.qesSeven.options.B'),
         t('qestion.qesSeven.options.C'),
         t('qestion.qesSeven.options.D'),
-    ],
+      ],
       correctAnswerIndex: 0,
       numberAnswerIndex: 7,
-      img: imgQuiz7
+      img: imgQuiz7,
     },
     {
       text: t('qestion.qesEight.text'),
@@ -117,7 +117,7 @@ const Quiz = ({ handleReset }) => {
       ],
       correctAnswerIndex: 3,
       numberAnswerIndex: 8,
-      img: imgQuiz8
+      img: imgQuiz8,
     },
     {
       text: t('qestion.qesNine.text'),
@@ -129,7 +129,7 @@ const Quiz = ({ handleReset }) => {
       ],
       correctAnswerIndex: 1,
       numberAnswerIndex: 9,
-      img: imgQuiz9
+      img: imgQuiz9,
     },
     {
       text: t('qestion.qesTen.text'),
@@ -141,15 +141,137 @@ const Quiz = ({ handleReset }) => {
       ],
       correctAnswerIndex: 2,
       numberAnswerIndex: 10,
-      img: imgQuiz10
+      img: imgQuiz10,
     },
   ];
+
+  const questionsNine = [
+    {
+      text: t('qestion.qesOne.text'),
+      options: [
+        t('qestion.qesOne.options.A'),
+        t('qestion.qesOne.options.B'),
+        t('qestion.qesOne.options.C'),
+        t('qestion.qesOne.options.D'),
+      ],
+      correctAnswerIndex: 0,
+      numberAnswerIndex: 1,
+      img: imgQuiz1,
+    },
+    {
+      text: t('qestion.qesTwo.text'),
+      options: [
+        t('qestion.qesTwo.options.A'),
+        t('qestion.qesTwo.options.B'),
+        t('qestion.qesTwo.options.C'),
+        t('qestion.qesTwo.options.D'),
+      ],
+      correctAnswerIndex: 2,
+      numberAnswerIndex: 2,
+      img: imgQuiz2,
+    },
+    {
+      text: t('qestion.qesThree.text'),
+      options: [
+        t('qestion.qesThree.options.A'),
+        t('qestion.qesThree.options.B'),
+        t('qestion.qesThree.options.C'),
+        t('qestion.qesThree.options.D'),
+      ],
+      correctAnswerIndex: 0,
+      numberAnswerIndex: 3,
+      img: imgQuiz3,
+    },
+    {
+      text: t('qestion.qesfour.text'),
+      options: [
+        t('qestion.qesfour.options.A'),
+        t('qestion.qesfour.options.B'),
+        t('qestion.qesfour.options.C'),
+        t('qestion.qesfour.options.D'),
+      ],
+      correctAnswerIndex: 1,
+      numberAnswerIndex: 4,
+      img: imgQuiz4,
+    },
+
+    {
+      text: t('qestion.qesfive.text'),
+      options: [
+        t('qestion.qesfive.options.A'),
+        t('qestion.qesfive.options.B'),
+        t('qestion.qesfive.options.C'),
+        t('qestion.qesfive.options.D'),
+      ],
+      correctAnswerIndex: 3,
+      numberAnswerIndex: 5,
+      img: imgQuiz5,
+    },
+    {
+      text: t('qestion.qesSix.text'),
+      options: [
+        t('qestion.qesSix.options.A'),
+        t('qestion.qesSix.options.B'),
+        t('qestion.qesSix.options.C'),
+        t('qestion.qesSix.options.D'),
+      ],
+      correctAnswerIndex: 2,
+      numberAnswerIndex: 6,
+      img: imgQuiz6,
+    },
+    {
+      text: t('qestion.qesSeven.text'),
+      options: [
+        t('qestion.qesSeven.options.A'),
+        t('qestion.qesSeven.options.B'),
+        t('qestion.qesSeven.options.C'),
+        t('qestion.qesSeven.options.D'),
+      ],
+      correctAnswerIndex: 0,
+      numberAnswerIndex: 7,
+      img: imgQuiz7,
+    },
+    {
+      text: t('qestion.qesEight.text'),
+      options: [
+        t('qestion.qesEight.options.A'),
+        t('qestion.qesEight.options.B'),
+        t('qestion.qesEight.options.C'),
+        t('qestion.qesEight.options.D'),
+      ],
+      correctAnswerIndex: 3,
+      numberAnswerIndex: 8,
+      img: imgQuiz8,
+    },
+    {
+      text: t('qestion.qesNine.text'),
+      options: [
+        t('qestion.qesNine.options.A'),
+        t('qestion.qesNine.options.B'),
+        t('qestion.qesNine.options.C'),
+        t('qestion.qesNine.options.D'),
+      ],
+      correctAnswerIndex: 2,
+      numberAnswerIndex: 9,
+      img: imgQuiz10,
+    },
+  ];
+
+  useEffect(() => {
+    if (i18n.language === 'pl' || i18n.language === 'cz') {
+      setCurrentQuestions(questionsNine);
+    } else {
+      setCurrentQuestions(questions);
+    }
+  }, []);
+
+  const [currentQuestions, setCurrentQuestions] = useState(questions);
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const [quizCompleted, setQuizCompleted] = useState(false);
 
-  const totalQuestions = questions.length;
+  const totalQuestions = currentQuestions.length;
 
   const handleAnswer = isCorrect => {
     if (isCorrect) {
@@ -185,11 +307,10 @@ const Quiz = ({ handleReset }) => {
         <>
           <div className={style.containerQuiz}>
             <QuestionList
-              
-              question={questions[currentQuestionIndex]}
+              question={currentQuestions[currentQuestionIndex]}
               onAnswer={handleAnswer}
               handleNextQuestion={handleNextQuestion}
-              currentQuestion={currentQuestionIndex + 1} 
+              currentQuestion={currentQuestionIndex + 1}
               totalQuestions={totalQuestions}
             />
           </div>

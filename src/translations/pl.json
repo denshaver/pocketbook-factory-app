@@ -1,0 +1,112 @@
+{
+  "titleWelcome": "Witamy na specjalnej stronie poświęconej wyjątkowemu gadżetowi – PocketBookowi",
+  "parHeader": "Obejrzyj film, aby dowiedzieć się najważniejszych faktów o czytnikach PocketBook i o ich możliwościach",
+  "title": "Czas sprawdzić swoją wiedzę!",
+  "par": "Rozwiąż quiz i sprawdź, czy jesteś ekspertem PocketBook",
+  "btnStart": "Początek",
+
+  "qestion": {
+    "qesOne": {
+      "text": "Aby przeczytać coś ze smartfona lub tabletu w pełnym słońcu, potrzebna będzie cierpliwość, a może… zaćmienie słońca. Ale PocketBook gwarantuje wygodne czytanie nawet w ostrym słońcu. Jaki jest sekret?",
+      "options": {
+        "A": "A) Bezodblaskowy ekran E Ink",
+        "B": "B) Specjalna osłona ochronna",
+        "C": "C) Funkcja zamiany tekstu na mowę",
+        "D": "D) Profesjonalny krem ​​​​przeciwsłoneczny"
+      }
+    },
+    "qesTwo": {
+      "text": "Czytanie na PocketBooku jest jak spa dla oczu. Dlaczego czytnik PocketBook uznawany jest za jedno z najbardziej przyjaznych dla oka urządzeń na świecie?",
+      "options": {
+        "A": "A) Wbudowany głośnik",
+        "B": "B) Obsługa Adobe DRM",
+        "C": "C) Podobny do papieru ekran E Ink",
+        "D": "D) Ekran emituje lecznicze opary"
+      }
+    },
+    "qesThree": {
+      "text": "Smartfony i tablety nie wytrzymują bez ładowania nawet dwóch dni. Ale PocketBook jest tak energooszczędny, że z łatwością możesz zapomnieć, jak wygląda ładowarka. Jak długo czytnik może pracować na jednym ładowaniu baterii?",
+      "options": {
+        "A": "A) Do 1 miesiąca",
+        "B": "B) Mniej niż 1 tydzień",
+        "C": "C) Ponad 1 rok",
+        "D": "D) 60 ekscytujących książek lub 0,36 nudnych"
+      }
+    },
+    "qesfour": {
+      "text": "Czytać w wannie czy na zjeżdżalniach w parku wodnym? To zależy od Ciebie – wodoodporny PocketBook pozwoli Ci czytać niemal wszędzie. Jaką głębokość może wytrzymać urządzenie?",
+      "options": {
+        "A": "A) 100 centymetrów",
+        "B": "B) 2 metry",
+        "C": "C) 46 cali",
+        "D": "D) 20 000 mil"
+      }
+    },
+    "qesfive": {
+      "text": "W porównaniu do innych czytników, PocketBook jest prawdziwym ekspertem w dziedzinie dźwięku. Jednak jedna z tych opcji audio nie jest dostępna w PocketBooku. Potrafisz zgadnąć który?",
+      "options": {
+        "A": "A) Obsługa 6 formatów audio",
+        "B": "B) Połączenie Bluetooth",
+        "C": "C) Wbudowany głośnik",
+        "D": "D) Śpiewanie z książką karaoke"
+      }
+    },
+    "qesSix": {
+      "text": "Słuchać, jak ktoś czyta książkę na głos, jest nie tylko komfortowo, ale także bardzo wygodne. W każdej chwili PocketBook może zamienić się z czytnik w narratora. Jak nazywa się ta funkcja?",
+      "options": {
+        "A": "A) Czytaj na głos",
+        "B": "B) Głos PocketBooka",
+        "C": "C) Zamiana tekstu na mowę - Text-to-Speech",
+        "D": "D) Tryb opowieści na dobranoc"
+      }
+    },
+    "qesSeven": {
+      "text": "Jeśli chcesz, aby wszystkie Twoje książki były zawsze pod ręką, musisz zatrudnić ekipę siłaczy lub po prostu kupić PocketBook. Ile książek może pomieścić czytnik?",
+      "options": {
+        "A": "A) Ponad 3000",
+        "B": "B) Ponad 300",
+        "C": "C) Ponad 1000",
+        "D": "D) Zależy od gatunku"
+      }
+    },
+    "qesEight": {
+      "text": "PocketBook, obsługując 25 formatów, jest mistrzem świata w liczbie formatów. Wskaż typ plików, których czytnik nie obsługuje.",
+      "options": {
+        "A": "A) Formaty komiksów i mang",
+        "B": "B) Formaty książek",
+        "C": "C) Formaty graficzne",
+        "D": "D) Formaty kart Tarota"
+      }
+    },
+    "qesNine": {
+      "text": "Rodzina PocketBooków jest tak duża i różnorodna, że ​​pozazdrościłby jej nawet Marvel. Jakie ekrany, oprócz czarno-białych, znajdują się w arsenale urządzeń PocketBook?",
+      "options": {
+        "A": "A) Ekrany OLED",
+        "B": "B) Ekrany LCD",
+        "C": "C) Kolorowe ekrany E Ink",
+        "D": "D) Ekrany rentgenowskie"
+      }
+    }
+  },
+
+  "questionCompleted": {
+    "answear": {
+      "better": {
+        "message": "Być może będziesz potrzebować więcej szkolenia z Ewokami, zanim zostaniesz PocketBook Jedi. Nie zarzucaj nauki!",
+        "tittle": "Postaraj się mocniej",
+        "par": "Ewok:"
+      },
+      "good": {
+        "message": "Dobrze się spisałeś, młody Padawanie, ale wciąż jest wiele do nauczenia się o Mocy PocketBook.",
+        "tittle": "Dobrze",
+        "par": "Padawan:"
+      },
+      "excellent": {
+        "message": "W tym quizie jesteś prawdziwym Mistrzem Jedi. Wykazujesz się wyjątkową wiedzą o uniwersum PocketBook.",
+        "tittle": "Doskonały",
+        "par": "Jedi Master:"
+      },
+      "btnAgain": "Zagraj ponownie"
+    }
+  }
+}

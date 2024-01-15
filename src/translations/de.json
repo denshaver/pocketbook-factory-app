@@ -1,0 +1,121 @@
+{
+  "titleWelcome": "Willkommen auf einer besonderen Seite über ein besonderes Gerät – PocketBook",
+  "parHeader": "Schau Dir das Video an, um mehr über die wichtigsten Dinge über PocketBook E-Reader und ihre Funktionen zu erfahren",
+  "title": "Es ist Zeit, Dein Wissen zu testen!",
+  "par": "Mach das Quiz, um zu erfahren, ob Du ein PocketBook-Experte sind.",
+  "btnStart": "Starten",
+
+  "qestion": {
+    "qesOne": {
+      "text": "Um in der Sonne etwas auf einem Smartphone oder Tablet zu lesen, braucht man Geduld und vielleicht ... eine Sonnenfinsternis. PocketBook garantiert jedoch angenehmes Lesen bei hellstem Sonnenlicht. Was ist das Geheimnis?",
+      "options": {
+        "A": "A) Blendfreier E Ink-Bildschirm",
+        "B": "B) Spezielles schützendes Cover",
+        "C": "C) Text-to-Speech-Funktion",
+        "D": "D) Professioneller Sonnenschutz"
+      }
+    },
+    "qesTwo": {
+      "text": "Das Lesen auf einem PocketBook ist wie ein Spa-Besuch für Deine Augen. Warum wird ein PocketBook E-Reader als eines der augenschonendsten Geräte der Welt angesehen?",
+      "options": {
+        "A": "A) Integrierter Lautsprecher",
+        "B": "B) Unterstützung von Adobe DRM",
+        "C": "C) Papierähnlicher E Ink-Bildschirm",
+        "D": "D) Der Bildschirm verströmt heilende Dämpfe"
+      }
+    },
+    "qesThree": {
+      "text": "Smartphones und Tablets müssen spätestens alle zwei Tage geladen werden. PocketBook ist jedoch so energieeffizient, dass Du sogar vergessen wirst, wie ein Ladegerät aussieht. Wie lange funktioniert der E-Reader mit einer Akkuladung?",
+      "options": {
+        "A": "A) Bis zu 1 Monat",
+        "B": "B) Weniger als 1 Woche",
+        "C": "C) Mehr als 1 Jahr",
+        "D": "D) 60 aufregende oder 0,36 langweilige Bücher"
+      }
+    },
+    "qesfour": {
+      "text": "Liest du in der Badewanne oder auf der Rutsche im Wasserpark? Ganz egal wo, mit dem wasserdichten PocketBook kannst du fast überall lesen. Welcher Wassertiefe hält das Gerät stand?",
+      "options": {
+        "A": "A) 100 Zentimeter",
+        "B": "B) 2 Meter",
+        "C": "C) 46 Zoll",
+        "D": "D) 20,000 Leugen"
+      }
+    },
+    "qesfive": {
+      "text": "Im Vergleich zu anderen E-Readern ist PocketBook ein echter Audioexperte. Allerdings ist eine der folgenden Audiooptionen nicht auf einem PocketBook verfügbar. Errätst du, welche es ist?",
+      "options": {
+        "A": "A) Unterstützung von 6 Audioformaten",
+        "B": "B) Bluetooth-Verbindung",
+        "C": "C) Integrierter Lautsprecher",
+        "D": "D) Karaoke-Singen"
+      }
+    },
+    "qesSix": {
+      "text": "Sich ein Buch vorlesen zu lassen, ist nicht nur beruhigend, sondern auch sehr praktisch. PocketBook kann sich jederzeit von einem E-Reader in einen Geschichtenerzähler verwandeln. Wie heißt diese Funktion?",
+      "options": {
+        "A": "A) ReadAloud",
+        "B": "B) PocketBook Voice",
+        "C": "C) Text-to-Speech",
+        "D": "D) Gute-Nacht-Geschichten-Modus"
+      }
+    },
+    "qesSeven": {
+      "text": "Wenn du alle deine Bücher immer griffbereit haben möchtest, musst du ein Team von Gewichthebern einstellen oder einfach ein PocketBook kaufen. Wie viele Bücher können auf dem E-Reader gespeichert werden?",
+      "options": {
+        "A": "A) Mehr als 3000",
+        "B": "B) Mehr als 300",
+        "C": "C) Mehr als 1000",
+        "D": "D) Abhängig vom Genre"
+      }
+    },
+    "qesEight": {
+      "text": "PocketBook ist der Weltmeister bei der Anzahl der Formate. Es unterstützt unglaubliche 25 unterschiedliche Formate. Nenne die Dateitypen, die der E-Reader nicht unterstützt.",
+      "options": {
+        "A": "A) Comic- und Manga-Formate",
+        "B": "B) Buchformate",
+        "C": "C) Grafikformate",
+        "D": "D) Tarotkarten-Formate"
+      }
+    },
+    "qesNine": {
+      "text": "Was haben PocketBook und Batman gemeinsam? Stylisches Design und Superkräfte. Wie du dich vielleicht erinnerst, unterstützt PocketBook das Adobe DRM. Aber was genau kann ein E-Reader mit dem Adobe DRM anstellen?",
+      "options": {
+        "A": "A) Erhalt von Büchern vor ihrer Veröffentlichung",
+        "B": "B) Buchausleihe von Online-Bibliotheken",
+        "C": "C) Kauf mit Rabatt",
+        "D": "D) Chat mit Autoren"
+      }
+    },
+    "qesTen": {
+      "text": "Die PocketBook-Familie ist so groß und vielfältig, dass selbst Marvel neidisch werden würde. Welche Bildschirme, außer Schwarzweiß, haben PocketBook-Geräte zu bieten?",
+      "options": {
+        "A": "A) OLED-Bildschirme",
+        "B": "B) LCD-Bildschirme",
+        "C": "C) E Ink-Farbbildschirm",
+        "D": "D) Röntgen-Bildschirme"
+      }
+    }
+  },
+
+  "questionCompleted": {
+    "answear": {
+      "better": {
+        "message": "Vielleicht brauchst du mehr Training mit den Ewoks, bevor du ein PocketBook-Jedi wirst. Lerne weiter!",
+        "tittle": "Versuche es noch einmal",
+        "par": "Ewok:"
+      },
+      "good": {
+        "message": "Du habst sich gut geschlagen, junger Padawan; es gibt jedoch noch viel über die Macht von PocketBook zu lernen.",
+        "tittle": "Gut",
+        "par": "Padawan:"
+      },
+      "excellent": {
+        "message": "Du bist ein wahrer Jedi-Meister in diesem Quiz und zeigst außergewöhnliches Wissen über das PocketBook-Universum.",
+        "tittle": "Hervorragend",
+        "par": "Jedi-Meister:"
+      },
+      "btnAgain": "Wieder spielen"
+    }
+  }
+}
