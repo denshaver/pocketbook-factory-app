@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import style from './Question.module.scss';
+import { useTranslation } from 'react-i18next';
+import '../../../i18n';
 
 // import EastIcon from '@mui/icons-material/East';
 const Question = ({
@@ -12,6 +14,8 @@ const Question = ({
   const [selectedOption, setSelectedOption] = useState(null);
   const [answered, setAnswered] = useState(false);
   const [btnhandleNext, setbtnhandleNext] = useState(true);
+
+  const { t } = useTranslation();
 
   const handleOptionSelect = optionIndex => {
     if (!answered) {
@@ -29,28 +33,25 @@ const Question = ({
     handleNextQuestion();
     setbtnhandleNext(true);
   };
-  
+
   return (
     <>
       <div className={style.containerQuestion}>
         <div className={style.conQuesText}>
           <div className={style.conQuesTextAndNumb}>
-
             <div className={style.tittleTextQues}>
-            <h2 className={style.quesText}>{question.text}</h2>
-          </div>
+              <h2 className={style.quesText}>{question.text}</h2>
+            </div>
 
-          <h3 className={style.currentQuestion}>
-            {currentQuestion} of {totalQuestions}
-          </h3>
+            <h3 className={style.currentQuestion}>
+              {currentQuestion} of {totalQuestions}
+            </h3>
           </div>
-          
         </div>
 
         <div className={style.conQuestionImg}>
-
           <div className={style.imgcon}>
-            <img src={question.img} alt=""  className={style.imgQues}/>
+            <img src={question.img} alt="" className={style.imgQues} />
           </div>
 
           <div className={style.conItem}>
@@ -75,15 +76,23 @@ const Question = ({
                 </li>
               ))}
             </ul>
-            {answered ? <div className={style.nextbtn}>
-              <button onClick={resetQuestion} className={style.nextQuestionBtn} disabled={btnhandleNext}>
-                NEXT 
-              </button>
-            </div> : ''}
+            {answered ? (
+              <div className={style.nextbtn}>
+                <button
+                  onClick={resetQuestion}
+                  className={style.nextQuestionBtn}
+                  disabled={btnhandleNext}
+                >
+                  {t('btnNext')}
+                </button>
+              </div>
+            ) : (
+              ''
+            )}
           </div>
         </div>
 
-        {/* <EastIcon/> */}
+        {/* <EastIcon /> */}
       </div>
     </>
   );
