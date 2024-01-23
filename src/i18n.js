@@ -45,8 +45,8 @@ i18n
   .init({
     resources,
     debug: true,
-    fallbackLng: 'en',
-    lng: JSON.parse(localStorage.getItem('language', 'en')),
+    fallbackLng: 'de',
+    lng: JSON.parse(localStorage.getItem('language', 'de')),
     saveMissing: true,
   });
 

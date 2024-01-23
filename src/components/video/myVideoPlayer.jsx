@@ -6,14 +6,10 @@ import style from './videoStyle.module.scss';
 import 'video-react/dist/video-react.css';
 import { handleVideoLanguageChange } from 'utils/lngVideoChange';
 
-import videoEn from './animation-en.mp4';
+import videoDe from './animation-de.mp4';
 
 const MyVideoPlayer = () => {
-  const [video, setVideo] = useState(videoEn);
-
-  useEffect(() => {
-    setVideo(handleVideoLanguageChange(i18n.language));
-  }, [i18n.language]);
+  const [video, setVideo] = useState(videoDe);
 
   return (
     <Player src={video} className={style.aspectvideo}>
