@@ -38,16 +38,12 @@ const resources = {
   },
 };
 
-i18n
-  .use(Backend)
-  .use(LanguageDetector)
-  .use(initReactI18next)
-  .init({
-    resources,
-    debug: true,
-    fallbackLng: 'de',
-    lng: JSON.parse(localStorage.getItem('language', 'de')),
-    saveMissing: true,
-  });
+i18n.use(Backend).use(LanguageDetector).use(initReactI18next).init({
+  resources,
+  debug: true,
+  fallbackLng: 'de',
+  lng: 'de',
+  saveMissing: true,
+});
 
 export default i18n;
